@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">Desperately Seeking Doctors - DSDr</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="c_hot">Corona Hotline</string>
+    <string name="corona_cell">CoronaVirus (COVID-19)</string>
+    <string name="menu_info">Information</string>
+
+    <string name="home_second">Home Second</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit">Exit</string>
+
+    <string name="nat_help">ন্যাশনাল কল সেন্টার</string>
+    <string name="sastho">স্বাস্থ্য বাতায়ন</string>
+    <string name="iedcr">আইইডিসিআর হটলাইন - IEDCR Hotline</string>
+    <string name="bissesoggo">বিশেষজ্ঞ হেল্প লাইন </string>
+    <string name="nat_help2">ন্যাশনাল হেল্পলাইন</string>
+    <string name="doctors_help">Doctors Helpline</string>
+    <string name="find_a_physician">Find A Physician to Help</string>
+    <string name="emergency_amb">Emergency Ambulance</string>
+    <string name="child">child</string>
+    <string name="available_10am">Available 10AM - 6PM</string>
+    <string name="item">Item</string>
+    <string name="doctor">doctor</string>
+    <string name="call">call</string>
+    <string name="select_city">Select Your City</string>
+
+    <string name="Select_Location">Select Location</string>
+    <string name="dhk">ঢাকা বিভাগ</string>
+    <string name="ctg">চট্টগ্রাম বিভাগ</string>
+    <string name="raj">রাজশাহী বিভাগ</string>
+    <string name="khu">খুলনা বিভাগ</string>
+    <string name="bor">বরিশাল বিভাগ</string>
+    <string name="syl">সিলেট বিভাগ</string>
+    <string name="rang">রংপুর বিভাগ</string>
+    <string name="mym">ময়মনসিংহ বিভাগ</string>
+
+    <string name="emergence_hot">ইমার্জেন্সি হটলাইন</string>
+    <string name="corona_hosptl">বিশেষায়িত হাসপাতালসমূহ</string>
+    <string name="icu_hot">ICU হটলাইন</string>
+    <string name="dsdr_comm">Join DSDr. Community</string>
+    <string name="community">Community</string>
+    <string name="coronavirus_corner">CoronaVirus Corner</string>
+    <string name="information">Information</string>
+
+
+    <string-array name="chittagong">
+        <item>মিডিয়া এ্যাম্বুলেন্স</item>
+        <item>আলফা এ্যাম্বুলেন্স</item>
+        <item>ডলফিন এ্যাম্বুলেন্স</item>
+        <item>আলিফ এ্যাম্বুলেন্স</item>
+        <item>ফায়ার বিগ্রেড এ্যাম্বুলেন্স</item>
+        <item>সেন্টার পয়েন্ট হাসপাতাল প্রাঃ লিঃ</item>
+        <item>চট্টগ্রাম সদর জেনারেল হাসপাতাল</item>
+        <item>চট্টগ্রাম মেডিকেল কলেজ</item>
+        <item>উপশম হাসপাতাল</item>
+        <item>রেলওয়ে হাসপাতাল</item>
+        <item>পলি হাসপাতাল</item>
+        <item>মর্ডান এ্যাম্বুলেন্স সার্ভিস</item>
+    </string-array>
+
+
+    <string-array name="rajshahi">
+        <item>ইসলামী ব্যাংক হাসপাতাল</item>
+        <item>ফায়ার সার্ভিস</item>
+        <item>রাজশাহী মেডিক্যাল</item>
+        <item>পাবা মেডিক্যাল হাসপাতাল</item>
+        <item>পুলিশ হাসপাতাল</item>
+        <item>সদর হাসপাতাল</item>
+        <item>টি বি হাসপাতাল</item>
+        <item>ইউনিভার্সিটি মেডিক্যাল</item>
+        <item>বরেন্দ্র মেডিকেল কলেজ হাসপাতাল</item>
+        <item>মোহনগর ক্লিনিক</item>
+        <item>আমানা হসপিটাল লিঃ</item>
+        <item>শিমুল সিয়্যাম সার্ভিস</item>
+    </string-array>
+
+
+    <string-array name="Dhaka">
+        <item>ঢাকা মেডিকেল কলেজ হসপিটালস</item>
+        <item>বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় হাসপাতাল</item>
+        <item>ফায়ার সার্ভিস এ্যাম্বুলেন্স</item>
+        <item>ন্যাশনাল হার্ট ইন্সটিটিউট</item>
+        <item>এ্যাপোলো হাসপাতাল</item>
+        <item>কার্ডিয়াক এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>আল মারকাজুল ইসলাম এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>আদ দ্বীন হাসপাতাল</item>
+        <item>আঞ্জুমান-ই-মুফিদুল ইসলাম</item>
+        <item>জাতীয় অর্থোপেডিক হাসপাতাল</item>
+        <item>জাতীয় মানসিক স্বাস্থ্য ইনস্টিটিউট ও হাসপাতাল</item>
+        <item>আল হেলাল স্পেশালাইজড হাসপাতাল</item>
+        <item>ইউনাইটেড হাসপাতাল</item>
+        <item>আইচি হাসপাতাল</item>
+        <item>মনোয়ারা হাসপাতাল প্রাঃ লিঃ</item>
+        <item>হলি ফ্যামিলি রেড ক্রিসেন্ট হাসপাতাল</item>
+        <item>ল্যাব এইড</item>
+        <item>জাপান বাংলাদেশ ফ্রেন্ডশীপ হাসপাতাল</item>
+        <item>সালাউদ্দিন স্পেশালাইসড হাসপাতাল</item>
+        <item>ধানমন্ডি ক্লিনিক প্রাইভেট লিঃ</item>
+        <item>সেন্টাল হাসপাতাল লিঃ</item>
+        <item>গ্রীন লাইফ হাসপাতাল লিঃ</item>
+        <item>কমফোর্ট হাসপাতাল</item>
+        <item>আল মানার হাসপাতাল</item>
+        <item>ইসলামী ব্যাংক হাসপাতাল</item>
+        <item>আলিফ এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>রেড ক্রিসেন্ট সোসাইটি এ্যাম্বুলেন্স সার্ভিস</item>
+    </string-array>
+
+    <string-array name="khulna">
+        <item>ইসলামী ব্যাংক হসপিটাল</item>
+        <item>উপশহাম হসপিটাল</item>
+        <item>নারগিস মেমোরিয়াল হসপিটাল</item>
+        <item>খুলনা সার্জিক্যাল ও মেডিকেল হসপিটাল</item>
+        <item>কালিশপুর ক্লিনিক</item>
+        <item>গরীর নাজ ক্লিনিক</item>
+        <item>কিওর হোম হসপিটাল</item>
+    </string-array>
+
+    <string-array name="Borishal">
+        <item>খাদেম হসপিটাল ক্লিনিক</item>
+        <item>সেবা ক্লিনিক</item>
+        <item>তুবা এ্যাম্বুলেন্স</item>
+        <item>বরিশাল এ্যাম্বুলেন্স সার্ভিস</item>
+    </string-array>
+
+    <string-array name="Rangpur">
+        <item>রংপুর মেডিকেল কলেজ</item>>
+        <item>রংপুর সিটি কর্পোরেশন</item>>
+        <item>ফায়ার সার্ভিস</item>
+        <item>নিউ রংপুর ক্লিনিক</item>
+        <item>গুড হেলথ হসপিটাল</item>
+        <item>আইডিয়াল ক্লিনিক নার্সিং হোম</item>
+        <item>ইসলামী ব্যাংক কমিউনিটি হসপিটাল</item>
+        <item>সিটি ক্লিনিক দিনাজপুর</item>
+        <item>রংপুর সদর হাঁসপাতাল</item>
+        <item>প্রাইম মেডিকেল কলেজ</item>
+    </string-array>
+
+    <string-array name="sylhet">
+        <item>সিলেট সদর হসপিটাল</item>
+        <item>মেট্রোপলিটন এ্যাম্বুলেন্স</item>
+        <item>সিলেট প্যাশেন্ট কেয়ার এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>আল মদিনা এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>সিটি কর্পোরেশন এ্যাম্বুলেন্স সার্ভিস</item>
+        <item>মাসুম এন্টারপ্রাইজ</item>
+        <item>সিলেট এ্যাম্বুলেন্স সার্ভিস</item>
+    </string-array>
+
+    <string-array name="mymen">
+        <item>ইউনাইটেড মডেল ক্লিনিক</item>
+        <item>আইডিয়াল ক্লিনিক</item>
+        <item>আল বারাকা হসপিটাল</item>
+        <item>জাহাঙ্গীর স্বাস্থ্য কমপ্লেক্স</item>
+        <item>লাব্বাইক এ্যাম্বুলেন্স সার্ভিস</item>
+    </string-array>
+
+    <string-array name="corona_icu_hot">
+        <item>ঢাকা মেডিকেল কলেজ হাসপাতাল</item>
+        <item>বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় হাসপাতাল</item>
+        <item>শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতাল</item>
+        <item>ঢাকা শিশু হাসপাতাল</item>
+        <item>বারডেম জেনারেল হাসপাতাল</item>
+        <item>স্কয়ার হাসপাতাল লিঃ</item>
+        <item>সিটি হাসপাতাল লিঃ</item>
+        <item>লুবানা জেনারেল হাসপাতাল(প্রাঃ) লিমিটেড</item>
+        <item>এ্যাপোলো হসপিটাল, ঢাকা</item>
+        <item>হলি ফ্যামিলি রেড ক্রিসেন্ট হাসপাতাল</item>
+        <item>জাপান বাংলাদেশ ফ্রেন্ডশীপ হাসপাতাল</item>
+        <item>ইউনাইটেড হসপিটাল বাংলাদেশ</item>
+        <item>শমরিতা হাসপাতাল</item>
+        <item>ইউনিভার্সাল মেডিকেল কলেজ হসপিটালস</item>
+        <item>ইবনে সিনা মেডিকেল কলেজ ও হাসপাতাল</item>
+        <item>ডেলটা হসপিটাল লিঃ</item>
+        <item>সেন্ট্রাল হাসপাতাল লিঃ</item>
+        <item>ইবনে সিনা হাসপাতাল</item>
+        <item>ইসলামী ব্যাংক হাসপাতাল</item>
+        <item>আল মানার হাসপাতাল</item>
+        <item>বি আর বি হাসপাতাল</item>
+    </string-array>
+
+    <string-array name="corona_special_hot">
+        <item>মুগদা জেনারেল হাসপাতাল</item>
+        <item>কুয়েত বাংলাদেশ মৈত্রী সরকারী হাসপাতাল</item>
+        <item>মহানগর জেনারেল হাসপাতাল</item>
+        <item>সংক্রামক ব্যাধি হাসপাতাল মহাখালি</item>
+        <item>কুর্মিটোলা জেনারেল হাসপাতাল</item>
+        <item>চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল</item>
+        <item>চট্টগ্রাম জেনারেল হাসপাতাল</item>
+        <item>বাংলাদেশ রেলওয়ে জেনারেল হাসপাতাল, কমলাপুর</item>
+        <item>মিরপুর মেটারনিটি হাসপাতাল</item>
+        <item>কামরাঙ্গীচর ৩১ শয্যা বিশিষ্ট হাসপাতাল</item>
+        <item>আমিনবাজার ২০ শয্যা বিশিষ্ট হাসপাতাল</item>
+        <item>জিঞ্জিরা ২০ শয্যা বিশিষ্ট হাসপাতাল</item>
+        <item>সাজিদা ফাউন্ডেশন হাসপাতাল</item>
+        <item>শেখ রাসেল গ্যাস্ট্রোলিভার হাসপাতাল</item>
+    </string-array>
+
+</resources>

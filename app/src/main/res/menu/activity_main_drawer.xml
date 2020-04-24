@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_run"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/information" />
+    </group>
+
+    <item android:title="@string/coronavirus_corner">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_corona"
+                    android:icon="@drawable/ic_virus"
+                    android:title="@string/corona_cell" />
+                <item
+                    android:id="@+id/corona_hotlines"
+                    android:icon="@drawable/ic_hotline"
+                    android:title="@string/c_hot" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/community">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/join_dsdr"
+                    android:icon="@drawable/ic_group"
+                    android:title="@string/dsdr_comm"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

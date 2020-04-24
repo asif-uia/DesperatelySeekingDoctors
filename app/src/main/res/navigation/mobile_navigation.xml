@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.asif.dsdr.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_doctors"
+            app:destination="@id/doctors" />
+        <action
+            android:id="@+id/action_nav_home_to_maintanance"
+            app:destination="@id/maintanance" />
+        <action
+            android:id="@+id/action_nav_home_to_ambulance4"
+            app:destination="@id/ambulance4" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_corona"
+        android:name="com.asif.dsdr.ui.coronacell.CoronaFragment"
+        android:label="@string/corona_cell"
+        tools:layout="@layout/fragment_corona" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.asif.dsdr.ui.information.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/corona_hotlines"
+        android:name="com.asif.dsdr.ui.coronaHotline.coronaHotMain"
+        android:label="@string/c_hot"
+        tools:layout="@layout/fragment_corona_hot_main" />
+    <!--<fragment
+        android:id="@+id/nav_login"
+        android:name="com.asif.dsdr.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />-->
+    <fragment
+        android:id="@+id/doctors"
+        android:name="com.asif.dsdr.ui.doctorsHelpline.doctorHelpline"
+        android:label="fragment_doctors"
+        tools:layout="@layout/fragment_doctors" />
+    <fragment
+        android:id="@+id/maintanance"
+        android:name="com.asif.dsdr.Maintainance"
+        android:label="fragment_maintanance"
+        tools:layout="@layout/fragment_maintanance" />
+    <fragment
+        android:id="@+id/ambulance4"
+        android:name="com.asif.dsdr.ui.ambulance.Ambulance"
+        android:label="fragment_ambulance"
+        tools:layout="@layout/fragment_ambulance" />
+
+
+</navigation>

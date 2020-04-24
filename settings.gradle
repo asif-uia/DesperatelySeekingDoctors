@@ -1,0 +1,2 @@
+rootProject.name='Desperately Seeking Doctors'
+include ':app'
