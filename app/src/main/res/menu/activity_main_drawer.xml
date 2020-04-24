@@ -25,6 +25,10 @@
                     android:id="@+id/corona_hotlines"
                     android:icon="@drawable/ic_hotline"
                     android:title="@string/c_hot" />
+                <item
+                    android:id="@+id/corona_labs"
+                    android:icon="@drawable/ic_lab"
+                    android:title="@string/corona_test" />
             </group>
         </menu>
     </item>
@@ -35,7 +39,7 @@
                 <item
                     android:id="@+id/join_dsdr"
                     android:icon="@drawable/ic_group"
-                    android:title="@string/dsdr_comm"/>
+                    android:title="@string/dsdr_comm" />
 
             </group>
         </menu>

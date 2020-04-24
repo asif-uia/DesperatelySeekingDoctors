@@ -10,6 +10,7 @@
     <string name="menu_home">Home</string>
     <string name="c_hot">Corona Hotline</string>
     <string name="corona_cell">CoronaVirus (COVID-19)</string>
+    <string name="corona_test">Corona Testing Labs</string>
     <string name="menu_info">Information</string>
 
     <string name="home_second">Home Second</string>
@@ -25,6 +26,7 @@
     <string name="doctors_help">Doctors Helpline</string>
     <string name="find_a_physician">Find A Physician to Help</string>
     <string name="emergency_amb">Emergency Ambulance</string>
+    <string name="emergency_amb2">Find An Ambulance</string>
     <string name="child">child</string>
     <string name="available_10am">Available 10AM - 6PM</string>
     <string name="item">Item</string>
@@ -49,6 +51,9 @@
     <string name="community">Community</string>
     <string name="coronavirus_corner">CoronaVirus Corner</string>
     <string name="information">Information</string>
+    <string name="health_informatics">Health Informatics</string>
+    <string name="know_MORE">Know More About Trending Health Issues</string>
+    <string name="call_an_ambulance">Call an Ambulance on Need</string>
 
 
     <string-array name="chittagong">
@@ -200,6 +205,26 @@
         <item>জিঞ্জিরা ২০ শয্যা বিশিষ্ট হাসপাতাল</item>
         <item>সাজিদা ফাউন্ডেশন হাসপাতাল</item>
         <item>শেখ রাসেল গ্যাস্ট্রোলিভার হাসপাতাল</item>
+    </string-array>
+
+    <string-array name="corona_labs">
+        <item>রোগতত্ত্ব, রোগ নিয়ন্ত্রণ ও গবেষণা ইনস্টিটিউট(IEDCR), মহাখালী, ঢাকা</item>
+        <item>জনস্বাস্থ্য ইনস্টিটিউট, মহাখালী, ঢাকা</item>
+        <item>শিশু স্বাস্থ্য গবেষণা ফাউন্ডেশন(CHRF)</item>
+        <item>ICDDRB, মহাখালী, ঢাকা</item>
+        <item>ইনস্টিটিউট ফর ডেভেলপিং সাইন্স এন্ড হেলথ ইনিশিয়েটিভ(আইদেশী), মহাখালী, ঢাকা</item>
+        <item>ন্যাশনাল ইনস্টিটিউট অব ল্যাবরেটরি মেডিসিন, আগারগাও, ঢাকা</item>
+        <item>ঢাকা মেডিক্যাল কলেজ</item>
+        <item>বঙ্গবন্ধু শেখ মুজিব মেডিক্যাল বিশ্ববিদ্যালয়, শাহবাগ, ঢাকা</item>
+        <item>আর্মড ফোর্সেস ইনস্টিটিউট অব প্যাথোলজি, সিএমএইচ, ঢাকা</item>
+        <item>বাংলাদেশ ইনস্টিটিউট অব ট্রপিক্যাল এন্ড ইনফেক্সিয়াস ডিজিসেস(BITID), ফৌজদারহাট, চট্টগ্রাম</item>
+        <item>রংপুর মেডিক্যাল কলেজ</item>
+        <item>রাজশাহী মেডিক্যাল কলেজ</item>
+        <item>ময়মনসিংহ মেডিক্যাল কলেজ</item>
+        <item>শের-এ-বাংলা মেডিক্যাল কলেজ</item>
+        <item>কক্সবাজার মেডিক্যাল কলেজ</item>
+        <item>ওসমানী মেডিক্যাল কলেজ হাসপাতাল, সিলেট</item>
+        <item>খুলনা মেডিক্যাল কলেজ</item>
     </string-array>
 
 </resources>

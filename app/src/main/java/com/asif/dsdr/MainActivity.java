@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationView navigationView = findViewById(R.id.nav_view);
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.corona_hotlines, R.id.nav_corona, R.id.nav_info, R.id.join_dsdr)
+                R.id.nav_home, R.id.corona_hotlines, R.id.nav_corona, R.id.corona_labs, R.id.nav_info, R.id.join_dsdr)
                 .setDrawerLayout(drawer)
                 .build();
         final NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
