@@ -24,7 +24,7 @@ public class Ambulance extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.emergency_amb));
+        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.emergency_amb2));
         return inflater.inflate(R.layout.fragment_ambulance, container, false);
     }
 

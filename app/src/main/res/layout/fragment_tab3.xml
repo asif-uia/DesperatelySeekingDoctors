@@ -10,8 +10,8 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="14dp"
         android:layout_gravity="center"
+        android:layout_margin="14dp"
         android:clickable="true"
         android:focusable="true"
         android:foreground="?attr/selectableItemBackground"
@@ -21,9 +21,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:contentDescription="@string/child"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/child"
-            android:contentDescription="@string/child">
+            app:srcCompat="@drawable/child">
 
         </ImageView>
     </androidx.cardview.widget.CardView>
