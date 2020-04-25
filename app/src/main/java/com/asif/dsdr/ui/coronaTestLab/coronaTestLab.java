@@ -19,6 +19,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class coronaTestLab extends Fragment {
 
@@ -50,7 +51,7 @@ public class coronaTestLab extends Fragment {
 
                 for (int i = 0; i < listAdapter.getGroupCount(); i++) {
                     if (groupPosition == i)
-                        childActionIntent(listDataChild.get(listDataHeader.get(i)).get(childPosition));
+                        childActionIntent(Objects.requireNonNull(listDataChild.get(listDataHeader.get(i))).get(childPosition));
                 }
 
                 return false;
@@ -60,9 +61,9 @@ public class coronaTestLab extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.corona_labs));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
-        List<String> l = new ArrayList<String>();
+        List<String> l = new ArrayList<>();
         l.add("00");
         l.add("78");
         l.add("54");

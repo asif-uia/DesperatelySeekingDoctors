@@ -1,19 +1,11 @@
 <resources>
     <string name="app_name">Desperately Seeking Doctors - DSDr</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
     <string name="c_hot">Corona Hotline</string>
     <string name="corona_cell">CoronaVirus (COVID-19)</string>
     <string name="corona_test">Corona Testing Labs</string>
-    <string name="menu_info">Information</string>
-
-    <string name="home_second">Home Second</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="exit">Exit</string>
@@ -28,15 +20,14 @@
     <string name="emergency_amb">Emergency Ambulance</string>
     <string name="emergency_amb2">Find An Ambulance</string>
     <string name="child">child</string>
-    <string name="available_10am">Available 10AM - 6PM</string>
+    <string name="available_10am">Available 10AM - 6PM (Call / Whatsapp)</string>
     <string name="item">Item</string>
     <string name="doctor">doctor</string>
     <string name="call">call</string>
-    <string name="select_city">Select Your City</string>
 
-    <string name="Select_Location">Select Location</string>
     <string name="dhk">ঢাকা বিভাগ</string>
     <string name="ctg">চট্টগ্রাম বিভাগ</string>
+
     <string name="raj">রাজশাহী বিভাগ</string>
     <string name="khu">খুলনা বিভাগ</string>
     <string name="bor">বরিশাল বিভাগ</string>
@@ -50,10 +41,10 @@
     <string name="dsdr_comm">Join DSDr. Community</string>
     <string name="community">Community</string>
     <string name="coronavirus_corner">CoronaVirus Corner</string>
-    <string name="information">Information</string>
     <string name="health_informatics">Health Informatics</string>
     <string name="know_MORE">Know More About Trending Health Issues</string>
     <string name="call_an_ambulance">Call an Ambulance on Need</string>
+    <string name="visit_facebook">Visit Facebook Page</string>
 
 
     <string-array name="chittagong">

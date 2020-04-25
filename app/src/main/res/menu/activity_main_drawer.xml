@@ -8,10 +8,10 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_run"
             android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_info"
-            android:icon="@drawable/ic_info"
-            android:title="@string/information" />
+        <!-- <item
+             android:id="@+id/nav_info"
+             android:icon="@drawable/ic_info"
+             android:title="@string/information" />-->
     </group>
 
     <item android:title="@string/coronavirus_corner">
@@ -40,6 +40,10 @@
                     android:id="@+id/join_dsdr"
                     android:icon="@drawable/ic_group"
                     android:title="@string/dsdr_comm" />
+                <item
+                    android:id="@+id/visit_page"
+                    android:icon="@drawable/ic_facebook"
+                    android:title="@string/visit_facebook" />
 
             </group>
         </menu>

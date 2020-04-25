@@ -1,5 +1,6 @@
 package com.asif.dsdr.ui.coronaHotline;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,6 +12,7 @@ import com.asif.dsdr.R;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Created by Asif on 24-Apr-20
@@ -21,8 +23,8 @@ public class CoronaExpandableListAdapter extends BaseExpandableListAdapter {
 
     private HashMap<String, List<String>> listDataChild;
 
-    public CoronaExpandableListAdapter(Context context, List<String> listDataHeader,
-                                       HashMap<String, List<String>> listDataChild) {
+    CoronaExpandableListAdapter(Context context, List<String> listDataHeader,
+                                HashMap<String, List<String>> listDataChild) {
         this.context = context;
         this.listDataHeader = listDataHeader;
         this.listDataChild = listDataChild;
@@ -35,7 +37,7 @@ public class CoronaExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return this.listDataChild.get(this.listDataHeader.get(groupPosition)).size();
+        return Objects.requireNonNull(this.listDataChild.get(this.listDataHeader.get(groupPosition))).size();
     }
 
     @Override
@@ -45,7 +47,7 @@ public class CoronaExpandableListAdapter extends BaseExpandableListAdapter {
 
     @Override
     public Object getChild(int groupPosition, int childPosition) {
-        return this.listDataChild.get(this.listDataHeader.get(groupPosition))
+        return Objects.requireNonNull(this.listDataChild.get(this.listDataHeader.get(groupPosition)))
                 .get(childPosition);
     }
 
@@ -64,6 +66,7 @@ public class CoronaExpandableListAdapter extends BaseExpandableListAdapter {
         return false;
     }
 
+    @SuppressLint("InflateParams")
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
         String headerTitle = (String)getGroup(groupPosition);
@@ -71,14 +74,16 @@ public class CoronaExpandableListAdapter extends BaseExpandableListAdapter {
         if(convertView == null){
             LayoutInflater inflater = (LayoutInflater)this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             convertView = inflater.inflate(R.layout.list_group, null);
+
         }
 
-        TextView labelHeader = (TextView)convertView.findViewById(R.id.labelhead1);
+        TextView labelHeader = convertView.findViewById(R.id.labelhead1);
         //labelHeader.setTypeface(null, Typeface.BOLD);
         labelHeader.setText(headerTitle);
         return convertView;
     }
 
+    @SuppressLint("InflateParams")
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
         final String childText = (String) getChild(groupPosition, childPosition);

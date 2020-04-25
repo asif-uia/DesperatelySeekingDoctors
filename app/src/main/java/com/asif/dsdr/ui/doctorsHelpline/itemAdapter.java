@@ -1,12 +1,13 @@
 package com.asif.dsdr.ui.doctorsHelpline;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.asif.dsdr.R;
 
@@ -53,7 +54,8 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
             });
         }
     }
-    public itemAdapter(ArrayList<itemResource> itemResources){
+
+    itemAdapter(ArrayList<itemResource> itemResources) {
         mitemResource = itemResources;
     }
 
