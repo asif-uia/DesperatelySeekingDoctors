@@ -1,9 +1,6 @@
-package com.asif.dsdr.ui.coronacell;
+package com.asif.dsdr.ui.coronavirus;
 
 import android.os.Bundle;
-import com.google.android.material.tabs.TabLayout;
-import androidx.viewpager.widget.ViewPager;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +8,10 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import com.asif.dsdr.R;
+import com.google.android.material.tabs.TabLayout;
 
 public class CoronaFragment extends Fragment {
 

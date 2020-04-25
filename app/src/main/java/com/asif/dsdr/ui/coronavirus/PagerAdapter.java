@@ -1,4 +1,4 @@
-package com.asif.dsdr.ui.coronacell;
+package com.asif.dsdr.ui.coronavirus;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

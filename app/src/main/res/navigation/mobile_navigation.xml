@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/nav_corona"
-        android:name="com.asif.dsdr.ui.coronacell.CoronaFragment"
+        android:name="com.asif.dsdr.ui.coronavirus.CoronaFragment"
         android:label="@string/corona_cell"
         tools:layout="@layout/fragment_corona" />
 

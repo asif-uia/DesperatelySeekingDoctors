@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity
         implements MenuItem.OnMenuItemClickListener {
     private AppBarConfiguration mAppBarConfiguration;
 
-    private static final int REQ_CODE = 1;
+    //private static final int REQ_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,9 +87,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-        switch (id) {
-            case R.id.exit:
-                finishAffinity();
+        if (id == R.id.exit) {
+            finishAffinity();
         }
         return super.onOptionsItemSelected(item);
     }
@@ -117,10 +116,9 @@ public class MainActivity extends AppCompatActivity
         switch (id) {
             case R.id.visit_page:
                 startActivity(facebookPageIntent(getApplicationContext()));
-                ;
             case R.id.join_dsdr:
                 startActivity(facebookGroupIntent(getApplicationContext()));
-                ;
+
                 //Actions
         }
         return false;

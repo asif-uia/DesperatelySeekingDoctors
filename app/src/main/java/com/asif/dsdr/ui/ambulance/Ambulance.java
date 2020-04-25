@@ -12,20 +12,19 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.asif.dsdr.R;
-import com.asif.dsdr.ui.coronacell.PagerAdapter;
+import com.asif.dsdr.ui.coronavirus.PagerAdapter;
 import com.google.android.material.tabs.TabLayout;
+
+import java.util.Objects;
 
 
 public class Ambulance extends Fragment {
-    private ViewPager viewPager;
-    private TabLayout tabLayout;
-
-    private PagerAdapter pagerAdapter;
+    //private PagerAdapter pagerAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        ((AppCompatActivity) requireActivity()).getSupportActionBar().setTitle(getString(R.string.emergency_amb));
+        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.emergency_amb));
         return inflater.inflate(R.layout.fragment_ambulance, container, false);
     }
 
@@ -34,9 +33,9 @@ public class Ambulance extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        viewPager = view.findViewById(R.id.pager2);
-        tabLayout = view.findViewById(R.id.tablayout2);
-        pagerAdapter = new PagerAdapter(getChildFragmentManager());
+        ViewPager viewPager = view.findViewById(R.id.pager2);
+        TabLayout tabLayout = view.findViewById(R.id.tablayout2);
+        //pagerAdapter = new PagerAdapter(getChildFragmentManager());
 
         setupViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
@@ -45,7 +44,7 @@ public class Ambulance extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        ((AppCompatActivity) requireActivity()).getSupportActionBar().setTitle(getString(R.string.menu_home));
+        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.menu_home));
     }
 
     private void setupViewPager(androidx.viewpager.widget.ViewPager viewPager) {

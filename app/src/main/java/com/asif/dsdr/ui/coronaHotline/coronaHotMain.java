@@ -11,12 +11,11 @@ import androidx.fragment.app.Fragment;
 import androidx.viewpager.widget.ViewPager;
 
 import com.asif.dsdr.R;
-import com.asif.dsdr.ui.coronacell.PagerAdapter;
+import com.asif.dsdr.ui.coronavirus.PagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class coronaHotMain extends Fragment {
-    private PagerAdapter pagerAdapter;
-    private ViewPager viewPager;
+    ///private PagerAdapter pagerAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,8 +28,8 @@ public class coronaHotMain extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        pagerAdapter = new PagerAdapter(getFragmentManager());
-        viewPager = view.findViewById(R.id.pager3);
+        ///pagerAdapter = new PagerAdapter(getFragmentManager());
+        ViewPager viewPager = view.findViewById(R.id.pager3);
 
         setupViewPager(viewPager);
 
