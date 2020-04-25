@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(facebookPageIntent(getApplicationContext()));
             case R.id.join_dsdr:
                 startActivity(facebookGroupIntent(getApplicationContext()));
-
                 //Actions
         }
         return false;

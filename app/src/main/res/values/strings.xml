@@ -460,44 +460,261 @@
     </string-array>
 
     <string-array name="corona_icu_hot">
-        <item>ঢাকা মেডিকেল কলেজ হাসপাতাল</item>
-        <item>বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় হাসপাতাল</item>
-        <item>শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতাল</item>
-        <item>ঢাকা শিশু হাসপাতাল</item>
-        <item>বারডেম জেনারেল হাসপাতাল</item>
-        <item>স্কয়ার হাসপাতাল লিঃ</item>
-        <item>সিটি হাসপাতাল লিঃ</item>
-        <item>লুবানা জেনারেল হাসপাতাল(প্রাঃ) লিমিটেড</item>
-        <item>এ্যাপোলো হসপিটাল, ঢাকা</item>
-        <item>হলি ফ্যামিলি রেড ক্রিসেন্ট হাসপাতাল</item>
-        <item>জাপান বাংলাদেশ ফ্রেন্ডশীপ হাসপাতাল</item>
-        <item>ইউনাইটেড হসপিটাল বাংলাদেশ</item>
-        <item>শমরিতা হাসপাতাল</item>
-        <item>ইউনিভার্সাল মেডিকেল কলেজ হসপিটালস</item>
-        <item>ইবনে সিনা মেডিকেল কলেজ ও হাসপাতাল</item>
-        <item>ডেলটা হসপিটাল লিঃ</item>
-        <item>সেন্ট্রাল হাসপাতাল লিঃ</item>
-        <item>ইবনে সিনা হাসপাতাল</item>
-        <item>ইসলামী ব্যাংক হাসপাতাল</item>
-        <item>আল মানার হাসপাতাল</item>
-        <item>বি আর বি হাসপাতাল</item>
+        <item>ঢাকা মেডিকেল কলেজ হাসপাতাল, ১০০ রমনা, ঢাকা</item>
+        <item>বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় হাসপাতাল, শাহবাগ</item>
+        <item>শহীদ সোহরাওয়ার্দী মেডিকেল কলেজ হাসপাতাল, শের-এ-বাংলা নগর</item>
+        <item>ঢাকা শিশু হাসপাতাল, শের-এ-বাংলা নগর</item>
+        <item>বারডেম জেনারেল হাসপাতাল, ১২২ কাজী নজরুল ইসলাম এভিঃ, শাহবাগ</item>
+        <item>স্কয়ার হাসপাতাল লিঃ, পান্থপথ, ঢাকা</item>
+        <item>সিটি হাসপাতাল লিঃ, ব্লক-ই, লালমাটিয়া, ঢাকা</item>
+        <item>লুবানা জেনারেল হাসপাতাল(প্রাঃ) লিমিটেড, সেক্টর ১৩, উত্তরা</item>
+        <item>এ্যাপোলো হসপিটাল, বসুন্ধরা, ঢাকা</item>
+        <item>হলি ফ্যামিলি রেড ক্রিসেন্ট হাসপাতাল, মগবাজার</item>
+        <item>জাপান বাংলাদেশ ফ্রেন্ডশীপ হাসপাতাল, ৫৫ সাত্মসজিদ রোড, ঢাকা</item>
+        <item>ইউনাইটেড হসপিটাল বাংলাদেশ, গুলশান, ঢাকা</item>
+        <item>শমরিতা হাসপাতাল, পান্থপথ, ঢাকা</item>
+        <item>ইউনিভার্সাল মেডিকেল কলেজ হসপিটালস, পিকক স্কয়ার, মহাখালি</item>
+        <item>ইবনে সিনা মেডিকেল কলেজ ও হাসপাতাল, ধানমন্ডি</item>
+        <item>ডেলটা হসপিটাল লিঃ, মিরপুর-১, ঢাকা</item>
+        <item>সেন্ট্রাল হাসপাতাল লিঃ, গ্রীন রোড, ঢাকা</item>
+        <item>ইবনে সিনা হাসপাতাল, ধানমন্ডি</item>
+        <item>ইসলামী ব্যাংক হাসপাতাল, আউটার সার্কুলার রোড, ঢাকা</item>
+        <item>আল মানার হাসপাতাল, লালমাটিয়া, ঢাকা</item>
+        <item>বি আর বি হাসপাতাল, পান্থপথ, ঢাকা</item>
+    </string-array>
+
+    <string-array name="icu1">
+        <item>+88-02-8626812</item>
+        <item>+88-02-8626813</item>
+        <item>+88-02-8626814</item>
+        <item>+88-02-8626815</item>
+        <item>+88-02-8626816</item>
+        <item>+88-02-8626817</item>
+        <item>+88-02-8626818</item>
+        <item>+88-02-8626819</item>
+    </string-array>
+    <string-array name="icu2">
+        <item>+88-02-9661051</item>
+        <item>+88-02-9661052</item>
+        <item>+88-02-9661053</item>
+        <item>+88-02-9661054</item>
+        <item>+88-02-9661055</item>
+        <item>+88-02-9661056</item>
+        <item>+88-02-9661057</item>
+        <item>+88-02-9661058</item>
+        <item>+88-02-9661059</item>
+        <item>+88-02-9661060</item>
+        <item>+88-02-8614545</item>
+        <item>+88-02-8614545</item>
+        <item>+88-02-8614546</item>
+        <item>+88-02-8614547</item>
+        <item>+88-02-8614548</item>
+        <item>+88-02-8614549</item>
+        <item>+88-02-8614550</item>
+        <item>+88-02-8614551</item>
+        <item>+88-02-8614552</item>
+        <item>+88-02-8614553</item>
+        <item>+88-02-8614554</item>
+    </string-array>
+    <string-array name="icu3">
+        <item>+88-02-9130800</item>
+        <item>+88-02-9130801</item>
+        <item>+88-02-9130802</item>
+        <item>+88-02-9130803</item>
+        <item>+88-02-9130804</item>
+        <item>+88-02-9130805</item>
+        <item>+88-02-9130806</item>
+        <item>+88-02-9130807</item>
+        <item>+88-02-9130808</item>
+        <item>+88-02-9130810</item>
+        <item>+88-02-9130811</item>
+        <item>+88-02-9130812</item>
+        <item>+88-02-9130813</item>
+        <item>+88-02-9130814</item>
+        <item>+88-02-9130815</item>
+        <item>+88-02-9130816</item>
+        <item>+88-02-9130817</item>
+        <item>+88-02-9130818</item>
+        <item>+88-02-9130819</item>
+    </string-array>
+    <string-array name="icu4">
+        <item>+88-02-8116061</item>
+        <item>+88-02-8116062</item>
+        <item>+88-02-8114571</item>
+        <item>+88-02-8114572</item>
+    </string-array>
+    <string-array name="icu5">
+        <item>+88-02-8616641</item>
+        <item>+88-02-8616642</item>
+        <item>+88-02-8616643</item>
+        <item>+88-02-8616644</item>
+        <item>+88-02-8616645</item>
+        <item>+88-02-8616646</item>
+        <item>+88-02-8616647</item>
+        <item>+88-02-8616648</item>
+        <item>+88-02-8616649</item>
+        <item>+88-02-8616650</item>
+        <item>+88-02-9661551</item>
+        <item>+88-02-9661552</item>
+        <item>+88-02-9661553</item>
+        <item>+88-02-9661554</item>
+        <item>+88-02-9661555</item>
+        <item>+88-02-9661556</item>
+        <item>+88-02-9661557</item>
+        <item>+88-02-9661558</item>
+        <item>+88-02-9661559</item>
+        <item>+88-02-9661560</item>
+    </string-array>
+    <string-array name="icu6">
+        <item>+88-02-8129334</item>
+        <item>+88-02-8156522</item>
+        <item>+88-02-8157853</item>
+    </string-array>
+    <string-array name="icu7">
+        <item>+88-02-8143312</item>
+        <item>+88-02-8143437</item>
+        <item>+88-02-8143166</item>
+        <item>+88-02-8143167</item>
+        <item>01815-484600</item>
+    </string-array>
+    <string-array name="icu8">
+        <item>+88-02-8962568</item>
+        <item>+88-02-9856754</item>
+        <item>+88-02-8956702</item>
+        <item>+8801922000044</item>
+        <item>+8801977776778</item>
+    </string-array>
+    <string-array name="icu9">
+        <item>+88-02-8401661</item>
+    </string-array>
+    <string-array name="icu10">
+        <item>+88-02-8311721</item>
+        <item>+88-02-8311722</item>
+        <item>+88-02-8311723</item>
+        <item>+88-02-8311724</item>
+        <item>+88-02-8311725</item>
+    </string-array>
+    <string-array name="icu11">
+        <item>+88-02-9672277</item>
+        <item>+88-02-9676161</item>
+        <item>+88-02-9664028</item>
+        <item>+88-02-9664029</item>
+    </string-array>
+    <string-array name="icu12">
+        <item>+88-02-8836000</item>
+        <item>+8801914001313</item>
+    </string-array>
+    <string-array name="icu13">
+        <item>+88-02-9131901</item>
+    </string-array>
+    <string-array name="icu14">
+        <item>+88-02-9122689</item>
+        <item>+88-02-9122690</item>
+        <item>+88-02-8142370</item>
+        <item>+88-02-8142371</item>
+        <item>+8801919-372647</item>
+        <item>+8801915-490006</item>
+        <item>+8801915-490007</item>
+    </string-array>
+    <string-array name="icu15">
+        <item>+88-02-9010396</item>
+        <item>+88-02-9005595</item>
+        <item>+88-02-9005617</item>
+    </string-array>
+    <string-array name="icu16">
+        <item>+88-02-8017151</item>
+        <item>+88-02-8017152</item>
+        <item>+88-02-8031378</item>
+        <item>+88-02-8031379</item>
+    </string-array>
+    <string-array name="icu17">
+        <item>+88-02-9660015</item>
+        <item>+88-02-9660016</item>
+        <item>+88-02-9660017</item>
+        <item>+88-02-9660018</item>
+        <item>+88-02-9660019</item>
+    </string-array>
+    <string-array name="icu18">
+        <item>+88-02-9128835</item>
+        <item>+88-02-9128836</item>
+        <item>+88-02-9128837</item>
+        <item>+88-02-9126625</item>
+    </string-array>
+    <string-array name="icu19">
+        <item>+88-02-9336421</item>
+    </string-array>
+    <string-array name="icu20">
+        <item>+88-02-9121387</item>
+        <item>+88-02-9121588</item>
+    </string-array>
+    <string-array name="icu21">
+        <item>10647</item>
+        <item>+88-02-9131537</item>
+        <item>+88-02-9140333</item>
+        <item>+88-02-9140346</item>
+        <item>+8801752602809</item>
     </string-array>
 
     <string-array name="corona_special_hot">
-        <item>মুগদা জেনারেল হাসপাতাল</item>
-        <item>কুয়েত বাংলাদেশ মৈত্রী সরকারী হাসপাতাল</item>
-        <item>মহানগর জেনারেল হাসপাতাল</item>
-        <item>সংক্রামক ব্যাধি হাসপাতাল মহাখালি</item>
-        <item>কুর্মিটোলা জেনারেল হাসপাতাল</item>
+        <item>মুগদা জেনারেল হাসপাতাল, মুগদা</item>
+        <item>কুয়েত বাংলাদেশ মৈত্রী সরকারী হাসপাতাল, সেক্টর ৬, উত্তরা, ঢাকা</item>
+        <item>মহানগর জেনারেল হাসপাতাল, নয়াবাজার, মতিঝিল</item>
+        <item>সংক্রামক ব্যাধি হাসপাতাল মহাখালি, মহাখালি</item>
+        <item>কুর্মিটোলা জেনারেল হাসপাতাল, কুর্মিটোলা</item>
         <item>চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল</item>
         <item>চট্টগ্রাম জেনারেল হাসপাতাল</item>
         <item>বাংলাদেশ রেলওয়ে জেনারেল হাসপাতাল, কমলাপুর</item>
-        <item>মিরপুর মেটারনিটি হাসপাতাল</item>
-        <item>কামরাঙ্গীচর ৩১ শয্যা বিশিষ্ট হাসপাতাল</item>
-        <item>আমিনবাজার ২০ শয্যা বিশিষ্ট হাসপাতাল</item>
-        <item>জিঞ্জিরা ২০ শয্যা বিশিষ্ট হাসপাতাল</item>
-        <item>সাজিদা ফাউন্ডেশন হাসপাতাল</item>
-        <item>শেখ রাসেল গ্যাস্ট্রোলিভার হাসপাতাল</item>
+        <item>মিরপুর মেটারনিটি হাসপাতাল, বড়বাগ, মিরপুর-২</item>
+        <item>কামরাঙ্গীচর ৩১ শয্যা বিশিষ্ট হাসপাতাল, লালবাগ, ঢাকা</item>
+        <item>আমিনবাজার ২০ শয্যা বিশিষ্ট হাসপাতাল, আমিনবাজার, সাভার</item>
+        <item>জিঞ্জিরা ২০ শয্যা বিশিষ্ট হাসপাতাল, কেরাণীগঞ্জ, ঢাকা</item>
+        <item>সাজিদা ফাউন্ডেশন হাসপাতাল, ১২৫ জুরাইন, ঢাকা</item>
+        <item>শেখ রাসেল গ্যাস্ট্রোলিভার হাসপাতাল, মহাখালি</item>
+    </string-array>
+
+    <string-array name="sp1">
+        <item>+88027276032</item>
+    </string-array>
+    <string-array name="sp2">
+        <item>01999956290</item>
+    </string-array>
+    <string-array name="sp3">
+        <item>+88-02-7390860</item>
+        <item>+88-02-7390066</item>
+    </string-array>
+    <string-array name="sp4">
+        <item>01313791116</item>
+    </string-array>
+    <string-array name="sp5">
+        <item>+8801769-010200</item>
+    </string-array>
+    <string-array name="sp6">
+        <item>01819-637685</item>
+    </string-array>
+    <string-array name="sp7">
+        <item>01711-971512</item>
+    </string-array>
+    <string-array name="sp8">
+        <item>+88-02-55007420</item>
+    </string-array>
+    <string-array name="sp9">
+        <item>02-9002012</item>
+    </string-array>
+    <string-array name="sp10">
+        <item>01726321189</item>
+    </string-array>
+    <string-array name="sp11">
+        <item>01700000000</item>
+        <item>01712290100</item>
+    </string-array>
+    <string-array name="sp12">
+        <item></item>
+    </string-array>
+    <string-array name="sp13">
+        <item>01777-771625</item>
+    </string-array>
+    <string-array name="sp14">
+        <item></item>
     </string-array>
 
     <string-array name="corona_labs">
@@ -519,5 +736,59 @@
         <item>ওসমানী মেডিক্যাল কলেজ হাসপাতাল, সিলেট</item>
         <item>খুলনা মেডিক্যাল কলেজ</item>
     </string-array>
+
+    <string-array name="clab0">
+        <item></item>
+    </string-array>
+    <string-array name="clab1">
+        <item></item>
+    </string-array>
+    <string-array name="clab2">
+        <item></item>
+    </string-array>
+    <string-array name="clab3">
+        <item></item>
+    </string-array>
+    <string-array name="clab4">
+        <item></item>
+    </string-array>
+    <string-array name="clab5">
+        <item></item>
+    </string-array>
+    <string-array name="clab6">
+        <item></item>
+    </string-array>
+    <string-array name="clab7">
+        <item></item>
+    </string-array>
+    <string-array name="clab8">
+        <item></item>
+    </string-array>
+    <string-array name="clab9">
+        <item></item>
+    </string-array>
+    <string-array name="clab10">
+        <item></item>
+    </string-array>
+    <string-array name="clab11">
+        <item></item>
+    </string-array>
+    <string-array name="clab12">
+        <item></item>
+    </string-array>
+    <string-array name="clab13">
+        <item></item>
+    </string-array>
+    <string-array name="clab14">
+        <item></item>
+    </string-array>
+    <string-array name="clab15">
+        <item></item>
+    </string-array>
+    <string-array name="clab16">
+        <item></item>
+    </string-array>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
 
 </resources>
