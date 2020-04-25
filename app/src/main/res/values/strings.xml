@@ -20,7 +20,8 @@
     <string name="emergency_amb">Emergency Ambulance</string>
     <string name="emergency_amb2">Find An Ambulance</string>
     <string name="child">child</string>
-    <string name="available_10am">Available 10AM - 6PM (Call / Whatsapp)</string>
+    <string name="available_10am">Available on 10AM - 6PM (Call / Whatsapp)</string>
+    <string name="available_5pm">Available on 5PM - 10PM (Call)</string>
     <string name="item">Item</string>
     <string name="doctor">doctor</string>
     <string name="call">call</string>
@@ -42,9 +43,40 @@
     <string name="community">Community</string>
     <string name="coronavirus_corner">CoronaVirus Corner</string>
     <string name="health_informatics">Health Informatics</string>
-    <string name="know_MORE">Know More About Trending Health Issues</string>
-    <string name="call_an_ambulance">Call an Ambulance on Need</string>
+    <string name="know_MORE">Trending Health Issues</string>
+    <string name="call_an_ambulance">Call an Ambulance Anytime</string>
     <string name="visit_facebook">Visit Facebook Page</string>
+
+    <string name="zilla">জেলাভিত্তিক ডক্টর চেম্বারসমূহ</string>
+    <string name="health_t">প্রয়োজনীয় স্বাস্থ্যবার্তা</string>
+    <string name="amb">অ্যাম্বুলেন্স সেবা</string>
+    <string name="dctr">ডক্টরস হেল্পলাইন</string>
+    <string name="dent">ডেন্টাল কর্নার</string>
+    <string name="dent_d">Ask A Dentist for Help</string>
+
+    <string-array name="teledentists">
+        <item>ডাঃ আরিফুর রহমান</item>
+        <item>ডাঃ মোছাঃ আমিনা খাতুন</item>
+        <item>ডাঃ মুশফিকুর রুহান</item>
+        <item>ডাঃ গাজী শাহ মোহাম্মদ শিশির</item>
+        <item>ডাঃ শাফী পারভেজ</item>
+        <item>ডা অর্ণব দাশ</item>
+        <item>ডাঃ আফরিনা বিনতে ইসলাম</item>
+        <item>ডাঃ সীমান্ত দাস</item>
+        <item>ডাঃ আঁখি আক্তার আন্নী</item>
+    </string-array>
+
+    <string-array name="teledentist_no">
+        <item>01714-000783</item>
+        <item>01723-310490</item>
+        <item>01710-077399</item>
+        <item>01913-542664</item>
+        <item>01716-310437</item>
+        <item>01645-278409</item>
+        <item>01842-996090</item>
+        <item>01828-698829</item>
+        <item>01745-966600</item>
+    </string-array>
 
 
     <string-array name="chittagong">
@@ -790,5 +822,8 @@
     </string-array>
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
+    <string name="health_tips">Health Tips</string>
+    <string name="districtwise">Districtwise Doctor Chambers</string>
+    <string name="join_dsdr_special">Join DSDr. Specialised Care</string>
 
 </resources>

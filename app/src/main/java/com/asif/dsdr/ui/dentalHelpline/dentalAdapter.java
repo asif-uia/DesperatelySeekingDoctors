@@ -1,4 +1,4 @@
-package com.asif.dsdr.ui.doctorsHelpline;
+package com.asif.dsdr.ui.dentalHelpline;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,8 +16,8 @@ import java.util.ArrayList;
 /**
  * Created by Asif on 17-Apr-20
  */
-public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder> {
-    private ArrayList<itemResource> mitemResource;
+public class dentalAdapter extends RecyclerView.Adapter<dentalAdapter.itemViewHolder> {
+    private ArrayList<dentalResource> mitemResource;
     private onItemClickListener mListener;
 
     public interface onItemClickListener {
@@ -36,10 +36,10 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
 
         itemViewHolder(@NonNull View itemView, final onItemClickListener listener) {
             super(itemView);
-            imageView1 = itemView.findViewById(R.id.imageView1);
-            imageView2 = itemView.findViewById(R.id.imageView2);
-            textView1 = itemView.findViewById(R.id.d_name);
-            textView2 = itemView.findViewById(R.id.d_no);
+            imageView1 = itemView.findViewById(R.id.imageView_den);
+            imageView2 = itemView.findViewById(R.id.imageView_den2);
+            textView1 = itemView.findViewById(R.id.den_name);
+            textView2 = itemView.findViewById(R.id.den_no);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -55,22 +55,21 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
         }
     }
 
-    itemAdapter(ArrayList<itemResource> itemResources) {
+    dentalAdapter(ArrayList<dentalResource> itemResources) {
         mitemResource = itemResources;
     }
 
     @NonNull
     @Override
     public itemViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_doctor, viewGroup, false);
-        itemViewHolder iv = new itemViewHolder(view, mListener);
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_dentist, viewGroup, false);
 
-        return iv;
+        return new itemViewHolder(view, mListener);
     }
 
     @Override
     public void onBindViewHolder(@NonNull itemViewHolder viewHolder, int i) {
-        itemResource itemResource = mitemResource.get(i);
+        dentalResource itemResource = mitemResource.get(i);
 
         viewHolder.imageView1.setImageResource(itemResource.getImageR1());
         viewHolder.imageView2.setImageResource(itemResource.getImageR2());

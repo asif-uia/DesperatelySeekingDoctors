@@ -49,9 +49,11 @@ public class MainActivity extends AppCompatActivity
 
         MenuItem i = navigationView.getMenu().findItem(R.id.join_dsdr);
         MenuItem j = navigationView.getMenu().findItem(R.id.visit_page);
+        MenuItem k = navigationView.getMenu().findItem(R.id.join_dsdr_special);
 
         i.setOnMenuItemClickListener(this);
         j.setOnMenuItemClickListener(this);
+        k.setOnMenuItemClickListener(this);
     }
 
     //If we need permission(s) in the app, use these.
@@ -117,19 +119,20 @@ public class MainActivity extends AppCompatActivity
             case R.id.visit_page:
                 startActivity(facebookPageIntent(getApplicationContext()));
             case R.id.join_dsdr:
-                startActivity(facebookGroupIntent(getApplicationContext()));
-                //Actions
+                startActivity(facebookGroupIntent(getApplicationContext(), "397519470727469"));
+            case R.id.join_dsdr_special:
+                startActivity(facebookGroupIntent(getApplicationContext(), "675260586557796"));
         }
         return false;
     }
 
-    private static Intent facebookGroupIntent(Context context) {
+    private static Intent facebookGroupIntent(Context context, String id) {
         try {
             context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
-            return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://group/397519470727469"));
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://group/" + id));
         } catch (Exception e) {
             return new Intent(Intent.ACTION_VIEW,
-                    Uri.parse("https://www.facebook.com/397519470727469"));
+                    Uri.parse("https://www.facebook.com/" + id));
         }
     }
 

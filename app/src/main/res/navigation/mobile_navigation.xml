@@ -18,6 +18,9 @@
         <action
             android:id="@+id/action_nav_home_to_ambulance4"
             app:destination="@id/ambulance4" />
+        <action
+            android:id="@+id/action_nav_home_to_dental"
+            app:destination="@id/dental" />
     </fragment>
 
     <fragment
@@ -63,6 +66,11 @@
         android:name="com.asif.dsdr.ui.ambulance.Ambulance"
         android:label="fragment_ambulance"
         tools:layout="@layout/fragment_ambulance" />
+    <fragment
+        android:id="@+id/dental"
+        android:name="com.asif.dsdr.ui.dentalHelpline.Dental"
+        android:label="fragment_dental"
+        tools:layout="@layout/fragment_dental" />
 
 
 </navigation>

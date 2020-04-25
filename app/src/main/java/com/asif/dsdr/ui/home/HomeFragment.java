@@ -29,8 +29,12 @@ public class HomeFragment extends Fragment {
         View.OnClickListener b = Navigation.createNavigateOnClickListener(R.id.action_nav_home_to_ambulance4);
         view.findViewById(R.id.ambulance_e).setOnClickListener(b);
 
-        View.OnClickListener c = Navigation.createNavigateOnClickListener(R.id.action_nav_home_to_maintanance);
-        view.findViewById(R.id.maintainance_s).setOnClickListener(c);
+//        View.OnClickListener c = Navigation.createNavigateOnClickListener(R.id.action_nav_home_to_maintanance);
+//        view.findViewById(R.id.maintainance_s).setOnClickListener(c);
+
+        View.OnClickListener d = Navigation.createNavigateOnClickListener(R.id.action_nav_home_to_dental);
+        view.findViewById(R.id.dental).setOnClickListener(d);
+
     }
 
 }
