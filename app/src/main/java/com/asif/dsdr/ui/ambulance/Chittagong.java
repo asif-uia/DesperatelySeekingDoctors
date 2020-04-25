@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -59,16 +58,21 @@ public class Chittagong extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.chittagong));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
-        List<String> l = new ArrayList<String>();
-        l.add("000");
-        l.add("101");
-        l.add("111");
-        l.add("121");
+        listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.ctg1)));
+        listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.ctg2)));
+        listDataChild.put(listDataHeader.get(2), Arrays.asList(getResources().getStringArray(R.array.ctg3)));
+        listDataChild.put(listDataHeader.get(3), Arrays.asList(getResources().getStringArray(R.array.ctg4)));
+        listDataChild.put(listDataHeader.get(4), Arrays.asList(getResources().getStringArray(R.array.ctg5)));
+        listDataChild.put(listDataHeader.get(5), Arrays.asList(getResources().getStringArray(R.array.ctg6)));
+        listDataChild.put(listDataHeader.get(6), Arrays.asList(getResources().getStringArray(R.array.ctg7)));
+        listDataChild.put(listDataHeader.get(7), Arrays.asList(getResources().getStringArray(R.array.ctg8)));
+        listDataChild.put(listDataHeader.get(8), Arrays.asList(getResources().getStringArray(R.array.ctg9)));
+        listDataChild.put(listDataHeader.get(9), Arrays.asList(getResources().getStringArray(R.array.ctg10)));
+        listDataChild.put(listDataHeader.get(10), Arrays.asList(getResources().getStringArray(R.array.ctg11)));
+        listDataChild.put(listDataHeader.get(11), Arrays.asList(getResources().getStringArray(R.array.ctg12)));
 
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
     }
 
     private void childActionIntent(String tel) {

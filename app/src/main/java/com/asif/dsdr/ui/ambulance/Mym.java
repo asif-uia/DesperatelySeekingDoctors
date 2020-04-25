@@ -69,16 +69,27 @@ public class Mym extends Fragment {
 
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.mymen));
 
-        List<String> l = new ArrayList<String>();
-        l.add("000");
-        l.add("101");
-        l.add("1221");
-        l.add("111");
-        l.add("121");
+        List<String> l1 = new ArrayList<>();
+        l1.add("52291");
 
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
-        listDataChild.put(listDataHeader.get(2), l);
+        List<String> l2 = new ArrayList<>();
+        l2.add("55840");
+
+        List<String> l3 = new ArrayList<>();
+        l3.add("61765");
+
+        List<String> l4 = new ArrayList<>();
+        l4.add("63400");
+
+        List<String> l5 = new ArrayList<>();
+        l5.add("01717-209005");
+
+
+        listDataChild.put(listDataHeader.get(0), l1);
+        listDataChild.put(listDataHeader.get(1), l2);
+        listDataChild.put(listDataHeader.get(2), l3);
+        listDataChild.put(listDataHeader.get(3), l4);
+        listDataChild.put(listDataHeader.get(4), l5);
     }
 
     private void childActionIntent(String tel) {

@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -60,16 +59,15 @@ public class Khulna extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.khulna));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
-        List<String> l = new ArrayList<String>();
-        l.add("000");
-        l.add("101");
-        l.add("111");
-        l.add("121");
-
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
+        listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.kh1)));
+        listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.kh2)));
+        listDataChild.put(listDataHeader.get(2), Arrays.asList(getResources().getStringArray(R.array.kh3)));
+        listDataChild.put(listDataHeader.get(3), Arrays.asList(getResources().getStringArray(R.array.kh4)));
+        listDataChild.put(listDataHeader.get(4), Arrays.asList(getResources().getStringArray(R.array.kh5)));
+        listDataChild.put(listDataHeader.get(5), Arrays.asList(getResources().getStringArray(R.array.kh6)));
+        listDataChild.put(listDataHeader.get(6), Arrays.asList(getResources().getStringArray(R.array.kh7)));
     }
 
     private void childActionIntent(String tel) {

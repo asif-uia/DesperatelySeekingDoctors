@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -59,16 +58,36 @@ public class Dhaka extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.Dhaka));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
-        List<String> l = new ArrayList<String>();
-        l.add("00");
-        l.add("78");
-        l.add("54");
-        l.add("15");
+        listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.dhk1)));
+        listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.dhk2)));
+        listDataChild.put(listDataHeader.get(2), Arrays.asList(getResources().getStringArray(R.array.dhk3)));
+        listDataChild.put(listDataHeader.get(3), Arrays.asList(getResources().getStringArray(R.array.dhk4)));
+        listDataChild.put(listDataHeader.get(4), Arrays.asList(getResources().getStringArray(R.array.dhk5)));
+        listDataChild.put(listDataHeader.get(5), Arrays.asList(getResources().getStringArray(R.array.dhk6)));
+        listDataChild.put(listDataHeader.get(6), Arrays.asList(getResources().getStringArray(R.array.dhk7)));
+        listDataChild.put(listDataHeader.get(7), Arrays.asList(getResources().getStringArray(R.array.dhk8)));
+        listDataChild.put(listDataHeader.get(8), Arrays.asList(getResources().getStringArray(R.array.dhk9)));
+        listDataChild.put(listDataHeader.get(9), Arrays.asList(getResources().getStringArray(R.array.dhk10)));
+        listDataChild.put(listDataHeader.get(10), Arrays.asList(getResources().getStringArray(R.array.dhk11)));
+        listDataChild.put(listDataHeader.get(11), Arrays.asList(getResources().getStringArray(R.array.dhk12)));
+        listDataChild.put(listDataHeader.get(12), Arrays.asList(getResources().getStringArray(R.array.dhk13)));
+        listDataChild.put(listDataHeader.get(13), Arrays.asList(getResources().getStringArray(R.array.dhk14)));
+        listDataChild.put(listDataHeader.get(14), Arrays.asList(getResources().getStringArray(R.array.dhk15)));
+        listDataChild.put(listDataHeader.get(15), Arrays.asList(getResources().getStringArray(R.array.dhk16)));
+        listDataChild.put(listDataHeader.get(16), Arrays.asList(getResources().getStringArray(R.array.dhk17)));
+        listDataChild.put(listDataHeader.get(17), Arrays.asList(getResources().getStringArray(R.array.dhk18)));
+        listDataChild.put(listDataHeader.get(18), Arrays.asList(getResources().getStringArray(R.array.dhk19)));
+        listDataChild.put(listDataHeader.get(19), Arrays.asList(getResources().getStringArray(R.array.dhk20)));
+        listDataChild.put(listDataHeader.get(20), Arrays.asList(getResources().getStringArray(R.array.dhk21)));
+        listDataChild.put(listDataHeader.get(21), Arrays.asList(getResources().getStringArray(R.array.dhk22)));
+        listDataChild.put(listDataHeader.get(22), Arrays.asList(getResources().getStringArray(R.array.dhk23)));
+        listDataChild.put(listDataHeader.get(23), Arrays.asList(getResources().getStringArray(R.array.dhk24)));
+        listDataChild.put(listDataHeader.get(24), Arrays.asList(getResources().getStringArray(R.array.dhk25)));
+        listDataChild.put(listDataHeader.get(25), Arrays.asList(getResources().getStringArray(R.array.dhk26)));
+        listDataChild.put(listDataHeader.get(26), Arrays.asList(getResources().getStringArray(R.array.dhk27)));
 
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
     }
 
     private void childActionIntent(String tel) {

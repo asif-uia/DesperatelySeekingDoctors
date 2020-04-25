@@ -62,14 +62,23 @@ public class Borishal extends Fragment {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.Borishal));
         listDataChild = new HashMap<String, List<String>>();
 
-        List<String> l = new ArrayList<String>();
-        l.add("000");
-        l.add("101");
-        l.add("111");
-        l.add("121");
+        List<String> l1 = new ArrayList<>();
+        l1.add(getString(R.string.bor1));
 
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
+        List<String> l2 = new ArrayList<>();
+        l2.add(getString(R.string.bor2));
+
+        List<String> l3 = new ArrayList<>();
+        l3.add(getString(R.string.bor3));
+
+        List<String> l4 = new ArrayList<>();
+        l4.add(getString(R.string.bor4));
+
+
+        listDataChild.put(listDataHeader.get(0), l1);
+        listDataChild.put(listDataHeader.get(1), l2);
+        listDataChild.put(listDataHeader.get(2), l3);
+        listDataChild.put(listDataHeader.get(3), l4);
     }
 
     private void childActionIntent(String tel) {

@@ -14,7 +14,6 @@ import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -58,29 +57,22 @@ public class Rajshahi extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.rajshahi));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
-//        listDataHeader.add(getString(R.string.r1));
-//        listDataHeader.add(getString(R.string.r2));
-//        listDataHeader.add(getString(R.string.r3));
-//        listDataHeader.add(getString(R.string.r4));
-//        listDataHeader.add(getString(R.string.r5));
-//        listDataHeader.add(getString(R.string.r6));
-//        listDataHeader.add(getString(R.string.r7));
-//        listDataHeader.add(getString(R.string.r8));
-//        listDataHeader.add(getString(R.string.r9));
-//        listDataHeader.add(getString(R.string.r10));
-//        listDataHeader.add(getString(R.string.r11));
-//        listDataHeader.add(getString(R.string.r12));
 
-        List<String> l = new ArrayList<String>();
-        l.add("000");
-        l.add("101");
-        l.add("111");
-        l.add("121");
+        listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.raj0)));
+        listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.raj1)));
+        listDataChild.put(listDataHeader.get(2), Arrays.asList(getResources().getStringArray(R.array.raj2)));
+        listDataChild.put(listDataHeader.get(3), Arrays.asList(getResources().getStringArray(R.array.raj3)));
+        listDataChild.put(listDataHeader.get(4), Arrays.asList(getResources().getStringArray(R.array.raj4)));
+        listDataChild.put(listDataHeader.get(5), Arrays.asList(getResources().getStringArray(R.array.raj5)));
+        listDataChild.put(listDataHeader.get(6), Arrays.asList(getResources().getStringArray(R.array.raj6)));
+        listDataChild.put(listDataHeader.get(7), Arrays.asList(getResources().getStringArray(R.array.raj7)));
+        listDataChild.put(listDataHeader.get(8), Arrays.asList(getResources().getStringArray(R.array.raj8)));
+        listDataChild.put(listDataHeader.get(9), Arrays.asList(getResources().getStringArray(R.array.raj9)));
+        listDataChild.put(listDataHeader.get(10), Arrays.asList(getResources().getStringArray(R.array.raj10)));
+        listDataChild.put(listDataHeader.get(11), Arrays.asList(getResources().getStringArray(R.array.raj11)));
 
-        listDataChild.put(listDataHeader.get(0), l);
-        listDataChild.put(listDataHeader.get(1), l);
     }
 
     private void childActionIntent(String tel) {
