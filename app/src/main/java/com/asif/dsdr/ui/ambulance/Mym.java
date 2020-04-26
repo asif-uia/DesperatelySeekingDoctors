@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class Mym extends Fragment {
     private List<String> listDataHeader;
@@ -49,7 +50,7 @@ public class Mym extends Fragment {
 
                 for (int i = 0; i < listAdapter.getGroupCount(); i++) {
                     if (groupPosition == i)
-                        childActionIntent(listDataChild.get(listDataHeader.get(i)).get(childPosition));
+                        childActionIntent(Objects.requireNonNull(listDataChild.get(listDataHeader.get(i))).get(childPosition));
                 }
 
                 return false;
@@ -58,14 +59,7 @@ public class Mym extends Fragment {
     }
 
     private void prepareListData() {
-        //listDataHeader = new ArrayList<String>();
-        listDataChild = new HashMap<String, List<String>>();
-
-        /*listDataHeader.add(getString(R.string.mym1));
-        listDataHeader.add(getString(R.string.mym2));
-        listDataHeader.add(getString(R.string.mym3));
-        listDataHeader.add(getString(R.string.mym4));
-        listDataHeader.add(getString(R.string.mym5));*/
+        listDataChild = new HashMap<>();
 
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.mymen));
 

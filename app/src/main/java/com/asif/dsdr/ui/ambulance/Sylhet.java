@@ -17,6 +17,7 @@ import com.asif.dsdr.R;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class Sylhet extends Fragment {
     private List<String> listDataHeader;
@@ -48,7 +49,7 @@ public class Sylhet extends Fragment {
 
                 for (int i = 0; i < listAdapter.getGroupCount(); i++) {
                     if (groupPosition == i)
-                        childActionIntent(listDataChild.get(listDataHeader.get(i)).get(childPosition));
+                        childActionIntent(Objects.requireNonNull(listDataChild.get(listDataHeader.get(i))).get(childPosition));
                 }
 
                 return false;
@@ -58,7 +59,7 @@ public class Sylhet extends Fragment {
 
     private void prepareListData() {
         listDataHeader = Arrays.asList(getResources().getStringArray(R.array.sylhet));
-        listDataChild = new HashMap<String, List<String>>();
+        listDataChild = new HashMap<>();
 
         listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.sy1)));
         listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.sy2)));

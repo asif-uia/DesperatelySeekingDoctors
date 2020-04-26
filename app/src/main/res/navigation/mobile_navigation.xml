@@ -13,9 +13,6 @@
             android:id="@+id/action_nav_home_to_doctors"
             app:destination="@id/doctors" />
         <action
-            android:id="@+id/action_nav_home_to_maintanance"
-            app:destination="@id/maintanance" />
-        <action
             android:id="@+id/action_nav_home_to_ambulance4"
             app:destination="@id/ambulance4" />
         <action
@@ -29,12 +26,6 @@
         android:label="@string/corona_cell"
         tools:layout="@layout/fragment_corona" />
 
-    <!--<fragment
-        android:id="@+id/nav_info"
-        android:name="com.asif.dsdr.ui.information.InfoFragment"
-        android:label="@string/menu_info"
-        tools:layout="@layout/fragment_info" />-->
-
     <fragment
         android:id="@+id/corona_hotlines"
         android:name="com.asif.dsdr.ui.coronaHotline.coronaHotMain"
@@ -46,26 +37,19 @@
         android:name="com.asif.dsdr.ui.coronaTestLab.coronaTestLab"
         android:label="@string/corona_test"
         tools:layout="@layout/fragment_corona_test_lab" />
-    <!--<fragment
-        android:id="@+id/nav_login"
-        android:name="com.asif.dsdr.ui.login.LoginFragment"
-        android:label="@string/menu_login"
-        tools:layout="@layout/fragment_login" />-->
+
     <fragment
         android:id="@+id/doctors"
         android:name="com.asif.dsdr.ui.doctorsHelpline.doctorHelpline"
         android:label="fragment_doctors"
         tools:layout="@layout/fragment_doctors" />
-    <fragment
-        android:id="@+id/maintanance"
-        android:name="com.asif.dsdr.Maintainance"
-        android:label="fragment_maintanance"
-        tools:layout="@layout/fragment_maintanance" />
+
     <fragment
         android:id="@+id/ambulance4"
         android:name="com.asif.dsdr.ui.ambulance.Ambulance"
         android:label="fragment_ambulance"
         tools:layout="@layout/fragment_ambulance" />
+
     <fragment
         android:id="@+id/dental"
         android:name="com.asif.dsdr.ui.dentalHelpline.Dental"

@@ -17,6 +17,7 @@ import com.asif.dsdr.R;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class Rangpur extends Fragment {
     private List<String> listDataHeader;
@@ -48,7 +49,7 @@ public class Rangpur extends Fragment {
 
                 for (int i = 0; i < listAdapter.getGroupCount(); i++) {
                     if (groupPosition == i)
-                        childActionIntent(listDataChild.get(listDataHeader.get(i)).get(childPosition));
+                        childActionIntent(Objects.requireNonNull(listDataChild.get(listDataHeader.get(i))).get(childPosition));
                 }
 
                 return false;

@@ -15,9 +15,6 @@ import com.google.android.material.tabs.TabLayout;
 
 public class CoronaFragment extends Fragment {
 
-    private PagerAdapter pagerAdapter;
-    private ViewPager viewPager;
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -28,8 +25,7 @@ public class CoronaFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        pagerAdapter = new PagerAdapter(getChildFragmentManager());
-        viewPager = view.findViewById(R.id.pager);
+        ViewPager viewPager = view.findViewById(R.id.pager);
         setupViewPager(viewPager);
         TabLayout tabLayout = view.findViewById(R.id.tablayout);
         tabLayout.setupWithViewPager(viewPager);

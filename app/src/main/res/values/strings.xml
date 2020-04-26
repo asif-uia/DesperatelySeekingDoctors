@@ -825,5 +825,6 @@
     <string name="health_tips">Health Tips</string>
     <string name="districtwise">Districtwise Doctor Chambers</string>
     <string name="join_dsdr_special">Join DSDr. Specialised Care</string>
+    <string name="version_0_33">version 0.33</string>
 
 </resources>

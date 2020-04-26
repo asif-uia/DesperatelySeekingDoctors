@@ -49,7 +49,7 @@ public class corona_special_hspt extends Fragment {
 
                 for (int i = 0; i < listAdapter.getGroupCount(); i++) {
                     if (groupPosition == i)
-                        if (!((listDataChild.get(listDataHeader.get(i))).get(childPosition).isEmpty())) {
+                        if (!((Objects.requireNonNull(listDataChild.get(listDataHeader.get(i)))).get(childPosition).isEmpty())) {
                             childActionIntent(Objects.requireNonNull(listDataChild.get(listDataHeader.get(i))).get(childPosition));
                         }
                 }
