@@ -23,16 +23,12 @@ public class MainActivity extends AppCompatActivity
         implements MenuItem.OnMenuItemClickListener {
     private AppBarConfiguration mAppBarConfiguration;
 
-    //private static final int REQ_CODE = 1;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        //runtimePermissionCheck();
 
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
@@ -81,8 +77,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
-        //MenuItem i = menu.findItem(R.id.join_dsdr);
-
         return true;
     }
 

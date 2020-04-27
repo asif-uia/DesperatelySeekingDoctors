@@ -18,6 +18,12 @@
         <action
             android:id="@+id/action_nav_home_to_dental"
             app:destination="@id/dental" />
+        <action
+            android:id="@+id/action_nav_home_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_nav_home_to_zillaChamber"
+            app:destination="@id/zillaChamber" />
     </fragment>
 
     <fragment
@@ -55,6 +61,15 @@
         android:name="com.asif.dsdr.ui.dentalHelpline.Dental"
         android:label="fragment_dental"
         tools:layout="@layout/fragment_dental" />
-
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.asif.dsdr.aboutUs"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/zillaChamber"
+        android:name="com.asif.dsdr.ui.zillaChambers.zillaChamber"
+        android:label="fragment_zilla_chamber"
+        tools:layout="@layout/fragment_zilla_chamber" />
 
 </navigation>

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="4dp"
-    android:clickable="true"
-    android:focusable="true"
     android:foreground="?attr/selectableItemBackground"
     app:cardCornerRadius="8dp">
 
@@ -60,9 +57,24 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
-                android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="#F1EEEE"
                 android:contentDescription="@string/call"
-                android:padding="14dp" />
+                android:padding="12dp"
+                android:src="@drawable/ic_whatsapp" />
+
+            <ImageView
+                android:id="@+id/imageView_wp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:layout_toStartOf="@id/imageView2"
+                android:background="#F1EEEE"
+                android:contentDescription="@string/call"
+                android:padding="16dp" />
+
         </RelativeLayout>
 
     </LinearLayout>

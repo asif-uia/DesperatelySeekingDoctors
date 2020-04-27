@@ -1,0 +1,100 @@
+package com.asif.dsdr;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+
+/**
+ * Created by Asif on 17-Apr-20
+ */
+public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder> {
+    private ArrayList<itemResource> mitemResource;
+    private MyClickListener mlistener;
+
+    public itemAdapter(ArrayList<itemResource> itemResources) {
+        mitemResource = itemResources;
+    }
+
+    public void setOnItemClickListener(MyClickListener listener) {
+        mlistener = listener;
+    }
+
+    @NonNull
+    @Override
+    public itemViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_doctor, viewGroup, false);
+        itemViewHolder iv = new itemViewHolder(view, mlistener);
+
+
+        return iv;
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull itemViewHolder viewHolder, int i) {
+        itemResource itemResource = mitemResource.get(i);
+
+        viewHolder.imageView1.setImageResource(itemResource.getImageR1());
+        viewHolder.imageView3.setImageResource(itemResource.getImageR2());
+        viewHolder.textView1.setText(itemResource.getText1());
+        viewHolder.textView2.setText(itemResource.getText2());
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return mitemResource.size();
+    }
+
+    public interface MyClickListener {
+        void onEdit(int p);
+
+        void onDelete(int p);
+    }
+
+    static class itemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        ImageView imageView1;
+        ImageView imageView2;
+        ImageView imageView3;
+        TextView textView1;
+        TextView textView2;
+
+
+        MyClickListener listener;
+
+        itemViewHolder(@NonNull View itemView, MyClickListener listener) {
+            super(itemView);
+            imageView1 = itemView.findViewById(R.id.imageView1);
+            imageView2 = itemView.findViewById(R.id.imageView2);
+            imageView3 = itemView.findViewById(R.id.imageView_wp);
+            textView1 = itemView.findViewById(R.id.d_name);
+            textView2 = itemView.findViewById(R.id.d_no);
+
+            //i = itemView.findViewById(R.id.imageView2);
+            imageView2.setOnClickListener(this);
+            imageView3.setOnClickListener(this);
+
+            this.listener = listener;
+
+
+        }
+
+        @Override
+        public void onClick(View v) {
+            if (v.getId() == R.id.imageView2) {
+                listener.onDelete(this.getLayoutPosition());
+            }
+            if (v.getId() == R.id.imageView_wp) {
+                listener.onEdit(this.getLayoutPosition());
+            }
+        }
+    }
+
+
+}

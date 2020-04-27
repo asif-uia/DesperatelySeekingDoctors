@@ -9,11 +9,12 @@ import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
 
-public class Tab3 extends Fragment {
+public class coronaPrevent extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tab3, container, false);
+        return inflater.inflate(R.layout.fragment_corona_prevent, container, false);
     }
 }

@@ -16,12 +16,12 @@
     <string name="bissesoggo">বিশেষজ্ঞ হেল্প লাইন </string>
     <string name="nat_help2">ন্যাশনাল হেল্পলাইন</string>
     <string name="doctors_help">Doctors Helpline</string>
-    <string name="find_a_physician">Find A Physician to Help</string>
+    <string name="find_a_physician">Ask A Doctor to Help</string>
     <string name="emergency_amb">Emergency Ambulance</string>
     <string name="emergency_amb2">Find An Ambulance</string>
     <string name="child">child</string>
-    <string name="available_10am">Available on 10AM - 6PM (Call / Whatsapp)</string>
-    <string name="available_5pm">Available on 5PM - 10PM (Call)</string>
+    <string name="available_10am">Available 10AM - 6PM</string>
+    <string name="available_5pm">Available on 5PM - 10PM (Call Only)</string>
     <string name="item">Item</string>
     <string name="doctor">doctor</string>
     <string name="call">call</string>
@@ -45,7 +45,7 @@
     <string name="health_informatics">Health Informatics</string>
     <string name="know_MORE">Trending Health Issues</string>
     <string name="call_an_ambulance">Call an Ambulance Anytime</string>
-    <string name="visit_facebook">Visit Facebook Page</string>
+    <string name="visit_facebook">Dr. Saklayen\'s Page</string>
 
     <string name="zilla">জেলাভিত্তিক ডক্টর চেম্বারসমূহ</string>
     <string name="health_t">প্রয়োজনীয় স্বাস্থ্যবার্তা</string>
@@ -763,68 +763,135 @@
         <item>রংপুর মেডিক্যাল কলেজ</item>
         <item>রাজশাহী মেডিক্যাল কলেজ</item>
         <item>ময়মনসিংহ মেডিক্যাল কলেজ</item>
-        <item>শের-এ-বাংলা মেডিক্যাল কলেজ</item>
+        <item>শের-এ-বাংলা মেডিক্যাল কলেজ, বরিশাল</item>
         <item>কক্সবাজার মেডিক্যাল কলেজ</item>
         <item>ওসমানী মেডিক্যাল কলেজ হাসপাতাল, সিলেট</item>
         <item>খুলনা মেডিক্যাল কলেজ</item>
+        <item>কুমিল্লা কন্ট্রোল রুম</item>
+        <item>BSMMU বিশেষজ্ঞ হেলথ-লাইন, শাহবাগ</item>
     </string-array>
 
     <string-array name="clab0">
-        <item></item>
+        <item>10655</item>
+        <item>01944333222</item>
+        <item>01550064901</item>
+        <item>01550064902</item>
+        <item>01550064903</item>
+        <item>01550064904</item>
+        <item>01550064905</item>
+        <item>01401184551</item>
+        <item>01401184554</item>
+        <item>01401184555</item>
+        <item>01401184556</item>
+        <item>01401184559</item>
+        <item>01401184560</item>
+        <item>01927711784</item>
+        <item>01927711785</item>
+        <item>01937000011</item>
+        <item>01937110011</item>
     </string-array>
     <string-array name="clab1">
-        <item></item>
+        <item>028821361</item>
+        <item>91-8026761322</item>
     </string-array>
     <string-array name="clab2">
-        <item></item>
+        <item>0248110117</item>
     </string-array>
     <string-array name="clab3">
-        <item></item>
+        <item>09666771100</item>
     </string-array>
     <string-array name="clab4">
-        <item></item>
+        <item>01793163304</item>
     </string-array>
     <string-array name="clab5">
-        <item></item>
+        <item>029139817</item>
     </string-array>
     <string-array name="clab6">
-        <item></item>
+        <item>10656</item>
+        <item>0255165088</item>
+        <item>0255165130</item>
+        <item>0255165046</item>
     </string-array>
     <string-array name="clab7">
-        <item></item>
+        <item>01866637482</item>
     </string-array>
     <string-array name="clab8">
-        <item></item>
+        <item>01769016616</item>
     </string-array>
     <string-array name="clab9">
-        <item></item>
+        <item>0244075042</item>
+        <item>0312780426</item>
     </string-array>
     <string-array name="clab10">
+        <item>01712177244</item>
+        <item>01718562172</item>
+        <item>052163388</item>
+        <item>052162150</item>
         <item></item>
     </string-array>
     <string-array name="clab11">
-        <item></item>
+        <item>01721772150</item>
     </string-array>
     <string-array name="clab12">
-        <item></item>
+        <item>01306497095</item>
+        <item>01306497096</item>
+        <item>09166063</item>
     </string-array>
     <string-array name="clab13">
-        <item></item>
+        <item>0431-2173547</item>
     </string-array>
     <string-array name="clab14">
-        <item></item>
+        <item>01713205877</item>
+        <item>01821431144</item>
     </string-array>
     <string-array name="clab15">
-        <item></item>
+        <item>0821713667</item>
     </string-array>
     <string-array name="clab16">
-        <item></item>
+        <item>041760350</item>
     </string-array>
+    <string-array name="clab17">
+        <item>01310026694</item>
+    </string-array>
+    <string-array name="clab18">
+        <item>09611677777</item>
+    </string-array>
+
     <string name="title_item_list">Items</string>
     <string name="title_item_detail">Item Detail</string>
     <string name="health_tips">Health Tips</string>
-    <string name="districtwise">Districtwise Doctor Chambers</string>
+    <string name="districtwise">Districtwise Chambers</string>
     <string name="join_dsdr_special">Join DSDr. Specialised Care</string>
     <string name="version_0_33">version 0.33</string>
+    <string name="developer">আমাদের সম্পর্কে</string>
+
+    <string name="meshe">
+        সার্বিক পরিচালনা ও তত্ত্বাবধায়নে
+        ডাঃ সাইমা ইসলাম
+        মডারেটর,
+        Desperately Seeking Doctors - DSDr.
+    </string>
+
+    <string name="saklayen">
+        ডাঃ এস এম জি সাকলায়েন রাসেল
+        ভাস্কুলার সার্জন ব্রডকাস্ট জার্নালিস্ট
+        প্রতিষ্ঠাতা ও এ্যাডমিন,
+        Desperately Seeking Doctors - DSDr.
+    </string>
+
+    <string name="asif">
+        ডেভেলাপমেন্ট ও ডিসাইনিং
+        আসিফ-উল ইসলাম
+        সফটওয়্যার ইঞ্জিনিয়ার ও টিম লিড, E-Lab
+    </string>
+
+    <string name="zil0">
+        ডাঃ আবদুল্লাহ আল হাসিব\nএম বি বি এস(এ এফ এম সি), বিসিএস(স্বাস্থ্য)\nএমডি (Phase A Resident, Oncology)\nঠিকানাঃ প্রাইম ডায়াগনস্টিক সেন্টার, সদর, ঠাকুরগাঁও (আধুনিক সদর হাসপাতালের পার্শ্বে)
+    </string>
+
+    <string name="zil1">
+        ডাঃ তাউসিফ বিন মামুন\nএম বি বি এস, বিসিএস(স্বাস্থ্য)\nএফ সি পি এস (পার্ট টু ট্রেইনি, ইএনটি)\nঠিকানাঃ নিরাপদ ডায়াগনস্টিক সেন্টার, সদর, ঠাকুরগাঁও (আধুনিক সদর হাসপাতালের সামনে)
+    </string>
+    <string name="about">About Us</string>
 
 </resources>

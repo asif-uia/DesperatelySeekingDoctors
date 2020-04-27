@@ -19,6 +19,7 @@
         <ImageView
             android:id="@+id/imageView_den"
             android:layout_width="50dp"
+            android:layout_gravity="center"
             android:layout_height="50dp"
             android:layout_margin="8dp"
             android:contentDescription="@string/doctor" />
@@ -27,12 +28,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_gravity="center"
             android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/available_5pm"></TextView>
 
             <TextView
                 android:id="@+id/den_name"
@@ -40,14 +37,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="@string/item"
-                android:textColor="@android:color/tertiary_text_dark"></TextView>
+                android:textColor="@android:color/tertiary_text_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/available_5pm" />
 
             <TextView
                 android:id="@+id/den_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:textColor="@android:color/black"></TextView>
+                android:textColor="@android:color/black" />
         </LinearLayout>
 
         <RelativeLayout
@@ -60,8 +62,9 @@
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
                 android:layout_margin="8dp"
+                android:background="#F1EEEE"
                 android:contentDescription="@string/call"
-                android:padding="14dp" />
+                android:padding="16dp" />
         </RelativeLayout>
 
     </LinearLayout>
