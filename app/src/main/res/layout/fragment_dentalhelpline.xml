@@ -3,20 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E4E3E3"
-    android:orientation="vertical"
-    tools:context=".ui.coronavirus.coronaNutri">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:text="@string/jatiyo_pus"
-        android:textColor="#0E0E0E"
-        android:textSize="16sp" />
+    tools:context=".ui.dentalHelpline.helpline">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView_nutri"
+        android:id="@+id/recyclerView4"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#E4E3E3"

@@ -17,8 +17,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.asif.dsdr.R;
-import com.asif.dsdr.itemAdapter;
-import com.asif.dsdr.itemResource;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -27,9 +25,9 @@ public class doctorHelpline extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Objects.requireNonNull(((AppCompatActivity) Objects.requireNonNull(getActivity()))
+        Objects.requireNonNull(((AppCompatActivity) requireActivity())
                 .getSupportActionBar())
-                .setTitle(getString(R.string.doctors_help));
+                .setTitle("ডক্টরস হেল্পলাইন");
 
         return inflater.inflate(R.layout.fragment_doctors, container, false);
     }
@@ -38,7 +36,7 @@ public class doctorHelpline extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        final ArrayList<com.asif.dsdr.itemResource> arrayList = new ArrayList<>();
+        final ArrayList<itemResource> arrayList = new ArrayList<>();
 
         String[] doc = {"Doctor 1 (Call / Whatsapp)", "Doctor 2 (Call / Whatsapp)", "Doctor 3 (Call / Whatsapp)",
                 "Doctor 4 (Call / Whatsapp)", "Doctor 5 (Call / Whatsapp)", "Doctor 6 (Call / Whatsapp)",
@@ -56,7 +54,7 @@ public class doctorHelpline extends Fragment {
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView1);
         recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
-        com.asif.dsdr.itemAdapter adapter = new com.asif.dsdr.itemAdapter(arrayList);
+        itemAdapter adapter = new itemAdapter(arrayList);
 
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setAdapter(adapter);
@@ -82,7 +80,7 @@ public class doctorHelpline extends Fragment {
     }
 
     private void sendtoWhatsapp(String num) {
-        PackageManager pm = Objects.requireNonNull(getContext()).getPackageManager();
+        PackageManager pm = requireContext().getPackageManager();
         boolean i;
         try {
             pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
@@ -106,7 +104,7 @@ public class doctorHelpline extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        Objects.requireNonNull(((AppCompatActivity) Objects.requireNonNull(getActivity()))
+        Objects.requireNonNull(((AppCompatActivity) requireActivity())
                 .getSupportActionBar())
                 .setTitle(getString(R.string.menu_home));
     }

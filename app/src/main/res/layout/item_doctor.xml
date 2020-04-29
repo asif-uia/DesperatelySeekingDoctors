@@ -18,6 +18,7 @@
             android:id="@+id/imageView1"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_margin="8dp"
             android:contentDescription="@string/doctor" />
 
@@ -30,7 +31,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/available_10am"></TextView>
+                android:text="@string/available_10am"
+                android:textColor="#373636" />
 
             <TextView
                 android:id="@+id/d_name"
@@ -38,14 +40,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="@string/item"
-                android:textColor="@android:color/tertiary_text_dark"></TextView>
+                android:textColor="#373636" />
 
             <TextView
                 android:id="@+id/d_no"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:textColor="@android:color/black"></TextView>
+                android:textColor="@android:color/black" />
         </LinearLayout>
 
         <RelativeLayout
@@ -57,6 +59,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
@@ -69,6 +72,7 @@
                 android:id="@+id/imageView_wp"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
+                android:layout_centerVertical="true"
                 android:layout_margin="8dp"
                 android:layout_toStartOf="@id/imageView2"
                 android:background="#F1EEEE"

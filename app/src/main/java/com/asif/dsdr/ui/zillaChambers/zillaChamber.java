@@ -22,9 +22,9 @@ public class zillaChamber extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        Objects.requireNonNull(((AppCompatActivity) Objects.requireNonNull(getActivity()))
+        Objects.requireNonNull(((AppCompatActivity) requireActivity())
                 .getSupportActionBar())
-                .setTitle(getString(R.string.districtwise));
+                .setTitle("জেলাভিত্তিক চেম্বারসমূহ");
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_zilla_chamber, container, false);
     }
@@ -50,7 +50,7 @@ public class zillaChamber extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        Objects.requireNonNull(((AppCompatActivity) Objects.requireNonNull(getActivity()))
+        Objects.requireNonNull(((AppCompatActivity) requireActivity())
                 .getSupportActionBar())
                 .setTitle(getString(R.string.menu_home));
     }

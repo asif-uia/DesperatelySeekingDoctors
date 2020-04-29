@@ -31,4 +31,6 @@ public class aboutUs extends Fragment {
                 .getSupportActionBar())
                 .setTitle(getString(R.string.menu_home));
     }
+
+
 }

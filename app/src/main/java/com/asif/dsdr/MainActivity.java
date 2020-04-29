@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
 
+        //noinspection deprecation
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.corona_hotlines, R.id.nav_corona,
                 R.id.corona_labs, R.id.join_dsdr,

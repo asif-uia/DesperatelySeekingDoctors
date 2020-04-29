@@ -1,7 +1,5 @@
 package com.asif.dsdr.ui.dentalHelpline;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,13 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
-import java.util.ArrayList;
-import java.util.Objects;
+import androidx.viewpager.widget.ViewPager;
 
 import com.asif.dsdr.R;
+import com.google.android.material.tabs.TabLayout;
+
+import java.util.Objects;
 
 public class Dental extends Fragment {
 
@@ -25,7 +22,9 @@ public class Dental extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle("Dentists Helpline");
+        Objects.requireNonNull(((AppCompatActivity) requireActivity())
+                .getSupportActionBar())
+                .setTitle("ডেন্টাল কর্ণার");
         return inflater.inflate(R.layout.fragment_dental, container, false);
     }
 
@@ -33,32 +32,19 @@ public class Dental extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        final ArrayList<dentalResource> arrayList = new ArrayList<>();
+        ViewPager viewPager = view.findViewById(R.id.pager_den);
+        TabLayout tabLayout = view.findViewById(R.id.tablayout_den);
+        //pagerAdapter = new PagerAdapter(getChildFragmentManager());
 
-        String []doc = getResources().getStringArray(R.array.teledentists);
-        String []no = getResources().getStringArray(R.array.teledentist_no);
+        setupViewPager(viewPager);
+        tabLayout.setupWithViewPager(viewPager);
+    }
 
-        for (int i = 0; i < doc.length; i++) {
-            arrayList.add(new dentalResource(R.drawable.ic_tooth, R.drawable.ic_phone, doc[i], no[i]));
-        }
-
-        RecyclerView recyclerView = view.findViewById(R.id.recyclerView4);
-        recyclerView.setHasFixedSize(true);
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
-        dentalAdapter adapter = new dentalAdapter(arrayList);
-
-        recyclerView.setLayoutManager(layoutManager);
-        recyclerView.setAdapter(adapter);
-
-        adapter.setOnItemClickListener(new dentalAdapter.onItemClickListener() {
-            @Override
-            public void onItemClick(int position) {
-                //System.out.println(arrayList.get(position).getText2());
-                Intent i = new Intent(Intent.ACTION_DIAL);
-                i.setData(Uri.parse("tel:" + arrayList.get(position).getText2()));
-                startActivity(i);
-            }
-        });
+    private void setupViewPager(ViewPager viewPager) {
+        PagerAdapter pagerAdapter = new PagerAdapter(getChildFragmentManager());
+        pagerAdapter.addFragment(new helpline(), "হেলপ লাইন");
+        pagerAdapter.addFragment(new tips(), "দন্ত্য জিজ্ঞাসা");
+        viewPager.setAdapter(pagerAdapter);
     }
 
     @Override

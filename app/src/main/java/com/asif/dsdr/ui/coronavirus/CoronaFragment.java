@@ -33,7 +33,7 @@ public class CoronaFragment extends Fragment {
 
     private void setupViewPager(ViewPager viewPager) {
         PagerAdapter pagerAdapter = new PagerAdapter(getChildFragmentManager());
-        pagerAdapter.addFragment(new coronaSymptom(), "করোনার লক্ষণ");
+        pagerAdapter.addFragment(new coronaSymptom(), "করোনার উপসর্গ");
         pagerAdapter.addFragment(new coronaPrevent(), "প্রতিরোধে করণীয়");
         pagerAdapter.addFragment(new coronaNutri(), "প্রয়োজনীয় পুষ্টিবার্তা");
         pagerAdapter.addFragment(new childrenCorona(), "শিশুর করোনাভাইরাস");

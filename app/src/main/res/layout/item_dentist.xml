@@ -19,16 +19,16 @@
         <ImageView
             android:id="@+id/imageView_den"
             android:layout_width="50dp"
-            android:layout_gravity="center"
             android:layout_height="50dp"
+            android:layout_gravity="center"
             android:layout_margin="8dp"
             android:contentDescription="@string/doctor" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
             android:layout_gravity="center"
+            android:layout_margin="8dp"
             android:orientation="vertical">
 
             <TextView
@@ -37,12 +37,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:text="@string/item"
-                android:textColor="@android:color/tertiary_text_dark" />
+                android:textColor="#373636" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/available_5pm" />
+                android:text="@string/available_5pm"
+                android:textColor="#373636" />
 
             <TextView
                 android:id="@+id/den_no"
@@ -61,8 +62,8 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
                 android:layout_margin="8dp"
-                android:background="#F1EEEE"
                 android:contentDescription="@string/call"
                 android:padding="16dp" />
         </RelativeLayout>

@@ -15,11 +15,11 @@ import com.asif.dsdr.ui.coronavirus.PagerAdapter;
 import com.google.android.material.tabs.TabLayout;
 
 public class coronaHotMain extends Fragment {
-    ///private PagerAdapter pagerAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_corona_hot_main, container, false);
     }
@@ -28,9 +28,7 @@ public class coronaHotMain extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ///pagerAdapter = new PagerAdapter(getFragmentManager());
         ViewPager viewPager = view.findViewById(R.id.pager3);
-
         setupViewPager(viewPager);
 
         TabLayout tabLayout = view.findViewById(R.id.tablayout3);
@@ -38,7 +36,7 @@ public class coronaHotMain extends Fragment {
     }
 
     private void setupViewPager(ViewPager viewPager) {
-        PagerAdapter pagerAdapter = new PagerAdapter(getFragmentManager());
+        PagerAdapter pagerAdapter = new PagerAdapter(getChildFragmentManager());
         pagerAdapter.addFragment(new Tab1(), getString(R.string.emergence_hot));
         pagerAdapter.addFragment(new corona_special_hspt(), getString(R.string.corona_hosptl));
         pagerAdapter.addFragment(new corona_icu(), getString(R.string.icu_hot));

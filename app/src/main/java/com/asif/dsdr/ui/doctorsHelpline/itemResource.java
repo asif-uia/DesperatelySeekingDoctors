@@ -1,15 +1,15 @@
-package com.asif.dsdr;
+package com.asif.dsdr.ui.doctorsHelpline;
 
 /**
  * Created by Asif on 17-Apr-20
  */
-public class itemResource {
+class itemResource {
     private int imageR1;
     private int imageR2;
     private String Text1;
     private String Text2;
 
-    public itemResource(int imageR1, int imageR2, String Text1, String Text2) {
+    itemResource(int imageR1, int imageR2, String Text1, String Text2) {
         this.imageR1 = imageR1;
         this.imageR2 = imageR2;
         this.Text1 = Text1;
@@ -28,7 +28,7 @@ public class itemResource {
         return Text1;
     }
 
-    public String getText2() {
+    String getText2() {
         return Text2;
     }
 }

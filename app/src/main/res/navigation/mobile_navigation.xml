@@ -24,6 +24,9 @@
         <action
             android:id="@+id/action_nav_home_to_zillaChamber"
             app:destination="@id/zillaChamber" />
+        <action
+            android:id="@+id/action_nav_home_to_healthTipsMain"
+            app:destination="@id/healthTipsMain" />
     </fragment>
 
     <fragment
@@ -71,5 +74,10 @@
         android:name="com.asif.dsdr.ui.zillaChambers.zillaChamber"
         android:label="fragment_zilla_chamber"
         tools:layout="@layout/fragment_zilla_chamber" />
+    <fragment
+        android:id="@+id/healthTipsMain"
+        android:name="com.asif.dsdr.ui.healthTips.healthTipsMain"
+        android:label="fragment_health_tips_main"
+        tools:layout="@layout/fragment_health_tips_main" />
 
 </navigation>

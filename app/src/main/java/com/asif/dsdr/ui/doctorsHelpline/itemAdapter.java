@@ -1,4 +1,4 @@
-package com.asif.dsdr;
+package com.asif.dsdr.ui.doctorsHelpline;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.asif.dsdr.R;
+
 import java.util.ArrayList;
 
 /**
@@ -18,11 +20,11 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     private ArrayList<itemResource> mitemResource;
     private MyClickListener mlistener;
 
-    public itemAdapter(ArrayList<itemResource> itemResources) {
+    itemAdapter(ArrayList<itemResource> itemResources) {
         mitemResource = itemResources;
     }
 
-    public void setOnItemClickListener(MyClickListener listener) {
+    void setOnItemClickListener(MyClickListener listener) {
         mlistener = listener;
     }
 
@@ -30,10 +32,7 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     @Override
     public itemViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.item_doctor, viewGroup, false);
-        itemViewHolder iv = new itemViewHolder(view, mlistener);
-
-
-        return iv;
+        return new itemViewHolder(view, mlistener);
     }
 
     @Override
