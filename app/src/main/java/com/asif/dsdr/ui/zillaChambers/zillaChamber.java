@@ -35,8 +35,9 @@ public class zillaChamber extends Fragment {
 
         ArrayList<itemResource> arrayList = new ArrayList<>();
 
-        arrayList.add(new itemResource(R.drawable.ic_stethoscope, getString(R.string.zil0)));
-        arrayList.add(new itemResource(R.drawable.ic_stethoscope, getString(R.string.zil1)));
+        arrayList.add(new itemResource(getString(R.string.zil0)));
+        arrayList.add(new itemResource(getString(R.string.zil1)));
+        arrayList.add(new itemResource(getString(R.string.zil2)));
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView_zilla);
         recyclerView.setHasFixedSize(true);

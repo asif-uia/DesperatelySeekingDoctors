@@ -31,11 +31,11 @@ public class Tab1 extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         final ArrayList<hotlineResource> arrayList = new ArrayList<>();
-        arrayList.add(new hotlineResource(R.drawable.ic_phone, "333", getString(R.string.nat_help)));
-        arrayList.add(new hotlineResource(R.drawable.ic_phone, "109", getString(R.string.nat_help2)));
-        arrayList.add(new hotlineResource(R.drawable.ic_phone, "10655", getString(R.string.iedcr)));
-        arrayList.add(new hotlineResource(R.drawable.ic_phone, "09611677777", getString(R.string.bissesoggo)));
-        arrayList.add(new hotlineResource(R.drawable.ic_phone, "16263", getString(R.string.sastho)));
+        arrayList.add(new hotlineResource("333", getString(R.string.nat_help)));
+        arrayList.add(new hotlineResource("109", getString(R.string.nat_help2)));
+        arrayList.add(new hotlineResource("10655", getString(R.string.iedcr)));
+        arrayList.add(new hotlineResource("09611677777", getString(R.string.bissesoggo)));
+        arrayList.add(new hotlineResource("16263", getString(R.string.sastho)));
 
         RecyclerView recyclerView = view.findViewById(R.id.hotline1);
         recyclerView.setHasFixedSize(true);

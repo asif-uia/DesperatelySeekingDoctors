@@ -36,7 +36,7 @@ public class helpline extends Fragment {
         String[] no = getResources().getStringArray(R.array.teledentist_no);
 
         for (int i = 0; i < doc.length; i++) {
-            arrayList.add(new dentalResource(R.drawable.ic_tooth, R.drawable.ic_phone, doc[i], no[i]));
+            arrayList.add(new dentalResource(doc[i], no[i]));
         }
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView4);

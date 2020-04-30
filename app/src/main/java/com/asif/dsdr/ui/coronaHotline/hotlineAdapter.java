@@ -1,12 +1,12 @@
 package com.asif.dsdr.ui.coronaHotline;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.asif.dsdr.R;
 
@@ -29,14 +29,12 @@ public class hotlineAdapter extends RecyclerView.Adapter<hotlineAdapter.hotlineV
 
 
     static class hotlineViewHolder extends RecyclerView.ViewHolder {
-        ImageView imageView;
         TextView textView;
         TextView textView1;
 
         hotlineViewHolder(@NonNull View itemView, final onItemClickListener listener) {
             super(itemView);
 
-            imageView = itemView.findViewById(R.id.iV_hot);
             textView = itemView.findViewById(R.id.hot_no);
             textView1 = itemView.findViewById(R.id.hot_name);
 
@@ -71,7 +69,6 @@ public class hotlineAdapter extends RecyclerView.Adapter<hotlineAdapter.hotlineV
     public void onBindViewHolder(@NonNull hotlineViewHolder hotlineViewHolder, int i) {
         hotlineResource hotlineResource = mhotlineResource.get(i);
 
-        hotlineViewHolder.imageView.setImageResource(hotlineResource.getImageR1());
         hotlineViewHolder.textView.setText(hotlineResource.getText1());
         hotlineViewHolder.textView1.setText(hotlineResource.getText2());
     }

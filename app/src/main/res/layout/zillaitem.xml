@@ -23,7 +23,8 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_margin="8dp"
-            android:contentDescription="@string/doctor" />
+            android:contentDescription="@string/doctor"
+            android:src="@drawable/ic_stethoscope" />
 
         <LinearLayout
             android:layout_width="wrap_content"

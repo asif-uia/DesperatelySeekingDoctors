@@ -62,6 +62,10 @@ public class healthTipsMain extends Fragment {
         listDataChild.put(listDataHeader.get(8), Arrays.asList(getResources().getStringArray(R.array.gha)));
         listDataChild.put(listDataHeader.get(9), Arrays.asList(getResources().getStringArray(R.array.urine_p)));
         listDataChild.put(listDataHeader.get(10), Arrays.asList(getResources().getStringArray(R.array.gastric)));
+        listDataChild.put(listDataHeader.get(11), Arrays.asList(getResources().getStringArray(R.array.sleep_hyg)));
+        listDataChild.put(listDataHeader.get(12), Arrays.asList(getResources().getStringArray(R.array.komor)));
+        listDataChild.put(listDataHeader.get(13), Arrays.asList(getResources().getStringArray(R.array.canula)));
+        listDataChild.put(listDataHeader.get(14), Arrays.asList(getResources().getStringArray(R.array.cough_cold)));
     }
 
     @Override

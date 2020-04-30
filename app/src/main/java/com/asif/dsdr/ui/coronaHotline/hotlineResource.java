@@ -8,14 +8,9 @@ class hotlineResource {
     private String Text1;
     private String Text2;
 
-    hotlineResource(int imageR1, String Text1, String Text2) {
-        this.imageR1 = imageR1;
+    hotlineResource(String Text1, String Text2) {
         this.Text1 = Text1;
         this.Text2 = Text2;
-    }
-
-    int getImageR1() {
-        return imageR1;
     }
 
     String getText1() {

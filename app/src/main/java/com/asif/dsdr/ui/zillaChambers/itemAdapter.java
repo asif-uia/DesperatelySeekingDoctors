@@ -3,7 +3,6 @@ package com.asif.dsdr.ui.zillaChambers;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -32,14 +31,11 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     }
 
     static class itemViewHolder extends RecyclerView.ViewHolder {
-        ImageView imageView1;
         TextView textView1;
 
         itemViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView1 = itemView.findViewById(R.id.zil_doc_image);
             textView1 = itemView.findViewById(R.id.zil_doc_description);
-
         }
     }
 
@@ -47,7 +43,6 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     public void onBindViewHolder(@NonNull itemViewHolder viewHolder, int i) {
         itemResource itemResource = mitemResource.get(i);
 
-        viewHolder.imageView1.setImageResource(itemResource.getImageR1());
         viewHolder.textView1.setText(itemResource.getText1());
     }
 

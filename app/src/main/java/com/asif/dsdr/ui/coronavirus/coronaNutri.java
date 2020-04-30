@@ -29,12 +29,12 @@ public class coronaNutri extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         ArrayList<itemResource> arrayList = new ArrayList<>();
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus1)));
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus2)));
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus3)));
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus4)));
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus5)));
-        arrayList.add(new itemResource(R.drawable.ic_diet, getString(R.string.pus6)));
+        arrayList.add(new itemResource(getString(R.string.pus1)));
+        arrayList.add(new itemResource(getString(R.string.pus2)));
+        arrayList.add(new itemResource(getString(R.string.pus3)));
+        arrayList.add(new itemResource(getString(R.string.pus4)));
+        arrayList.add(new itemResource(getString(R.string.pus5)));
+        arrayList.add(new itemResource(getString(R.string.pus6)));
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView_nutri);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());

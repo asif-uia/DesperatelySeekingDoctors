@@ -47,6 +47,7 @@
 
             <ImageView
                 android:id="@+id/iV_hot"
+                android:src="@drawable/ic_phone"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"

@@ -7,13 +7,8 @@ class itemResource {
     private int imageR1;
     private String Text1;
 
-    itemResource(int imageR1, String Text1) {
-        this.imageR1 = imageR1;
+    itemResource(String Text1) {
         this.Text1 = Text1;
-    }
-
-    int getImageR1() {
-        return imageR1;
     }
 
     String getText1() {
