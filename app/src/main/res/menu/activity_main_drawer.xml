@@ -44,6 +44,10 @@
                     android:id="@+id/visit_page"
                     android:icon="@drawable/ic_facebook"
                     android:title="@string/visit_facebook" />
+                <item
+                    android:id="@+id/visit_youtube"
+                    android:icon="@drawable/ic_youtube"
+                    android:title="@string/visit_youtube" />
 
             </group>
         </menu>

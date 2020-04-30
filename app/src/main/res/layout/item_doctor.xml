@@ -19,6 +19,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
+            android:src="@drawable/ic_doctor"
             android:layout_margin="8dp"
             android:contentDescription="@string/doctor" />
 
@@ -74,6 +75,7 @@
                 android:layout_height="50dp"
                 android:layout_centerVertical="true"
                 android:layout_margin="8dp"
+                android:src="@drawable/ic_phone"
                 android:layout_toStartOf="@id/imageView2"
                 android:background="#F1EEEE"
                 android:contentDescription="@string/call"

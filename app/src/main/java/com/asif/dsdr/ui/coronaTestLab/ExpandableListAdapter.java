@@ -1,4 +1,4 @@
-package com.asif.dsdr.ui.ambulance;
+package com.asif.dsdr.ui.coronaTestLab;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,7 +17,7 @@ import java.util.Objects;
 /**
  * Created by Asif on 24-Apr-20
  */
-public class ExpandableListAdapter extends BaseExpandableListAdapter {
+class ExpandableListAdapter extends BaseExpandableListAdapter {
     private Context context;
     private List<String> listDataHeader;
 
@@ -69,10 +69,10 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     @SuppressLint("InflateParams")
     @Override
     public View getGroupView(int groupPosition, boolean isExpanded, View convertView, ViewGroup parent) {
-        String headerTitle = (String)getGroup(groupPosition);
+        String headerTitle = (String) getGroup(groupPosition);
 
-        if(convertView == null){
-            LayoutInflater inflater = (LayoutInflater)this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        if (convertView == null) {
+            LayoutInflater inflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             assert inflater != null;
             convertView = inflater.inflate(R.layout.list_group, null);
         }

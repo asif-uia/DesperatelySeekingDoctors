@@ -13,7 +13,6 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import com.asif.dsdr.R;
-import com.asif.dsdr.ui.ambulance.ExpandableListAdapter;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -81,6 +80,7 @@ public class coronaTestLab extends Fragment {
         listDataChild.put(listDataHeader.get(16), Arrays.asList(getResources().getStringArray(R.array.clab16)));
         listDataChild.put(listDataHeader.get(17), Arrays.asList(getResources().getStringArray(R.array.clab17)));
         listDataChild.put(listDataHeader.get(18), Arrays.asList(getResources().getStringArray(R.array.clab18)));
+        listDataChild.put(listDataHeader.get(19), Arrays.asList(getResources().getStringArray(R.array.clab19)));
 
     }
 

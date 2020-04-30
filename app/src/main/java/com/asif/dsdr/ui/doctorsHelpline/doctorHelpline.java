@@ -48,7 +48,7 @@ public class doctorHelpline extends Fragment {
                 "01882446277"};
 
         for (int i = 0; i < doc.length; i++) {
-            arrayList.add(new itemResource(R.drawable.ic_doctor, R.drawable.ic_phone, doc[i], no[i]));
+            arrayList.add(new itemResource(doc[i], no[i]));
         }
 
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView1);
@@ -61,17 +61,14 @@ public class doctorHelpline extends Fragment {
 
         adapter.setOnItemClickListener(new itemAdapter.MyClickListener() {
             @Override
-            public void onEdit(int p) {
-                //String s = arrayList.get(p).getText2();
-                //Toast.makeText(getContext(), "Whatsapp", Toast.LENGTH_LONG).show();
+            public void onPhoneCall(int p) {
                 String s = arrayList.get(p).getText2();
-                //Toast.makeText(getContext(), s, Toast.LENGTH_LONG).show();
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + s));
                 startActivity(intent);
             }
 
             @Override
-            public void onDelete(int p) {
+            public void onWhatsapp(int p) {
                 sendtoWhatsapp(arrayList.get(p).getText2());
             }
         });

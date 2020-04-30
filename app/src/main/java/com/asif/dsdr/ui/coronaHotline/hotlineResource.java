@@ -4,7 +4,6 @@ package com.asif.dsdr.ui.coronaHotline;
  * Created by Asif on 20-Apr-20
  */
 class hotlineResource {
-    private int imageR1;
     private String Text1;
     private String Text2;
 

@@ -39,11 +39,8 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     public void onBindViewHolder(@NonNull itemViewHolder viewHolder, int i) {
         itemResource itemResource = mitemResource.get(i);
 
-        viewHolder.imageView1.setImageResource(itemResource.getImageR1());
-        viewHolder.imageView3.setImageResource(itemResource.getImageR2());
         viewHolder.textView1.setText(itemResource.getText1());
         viewHolder.textView2.setText(itemResource.getText2());
-
     }
 
     @Override
@@ -52,13 +49,12 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
     }
 
     public interface MyClickListener {
-        void onEdit(int p);
+        void onPhoneCall(int p);
 
-        void onDelete(int p);
+        void onWhatsapp(int p);
     }
 
     static class itemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        ImageView imageView1;
         ImageView imageView2;
         ImageView imageView3;
         TextView textView1;
@@ -69,7 +65,6 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
 
         itemViewHolder(@NonNull View itemView, MyClickListener listener) {
             super(itemView);
-            imageView1 = itemView.findViewById(R.id.imageView1);
             imageView2 = itemView.findViewById(R.id.imageView2);
             imageView3 = itemView.findViewById(R.id.imageView_wp);
             textView1 = itemView.findViewById(R.id.d_name);
@@ -87,10 +82,10 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
         @Override
         public void onClick(View v) {
             if (v.getId() == R.id.imageView2) {
-                listener.onDelete(this.getLayoutPosition());
+                listener.onWhatsapp(this.getLayoutPosition());
             }
             if (v.getId() == R.id.imageView_wp) {
-                listener.onEdit(this.getLayoutPosition());
+                listener.onPhoneCall(this.getLayoutPosition());
             }
         }
     }

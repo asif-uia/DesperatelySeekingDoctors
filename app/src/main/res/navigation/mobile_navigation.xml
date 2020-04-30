@@ -41,12 +41,6 @@
         android:label="@string/c_hot"
         tools:layout="@layout/fragment_corona_hot_main" />
 
-    <!--<fragment
-        android:id="@+id/nav_test"
-        android:name="com.asif.dsdr.ui.fire_DB.testFrag"
-        android:label="test"
-        tools:layout="@layout/fragment_test" />-->
-
     <fragment
         android:id="@+id/corona_labs"
         android:name="com.asif.dsdr.ui.coronaTestLab.coronaTestLab"

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.corona_hotlines, R.id.nav_corona,
                 R.id.corona_labs, R.id.join_dsdr,
-                R.id.visit_page)
+                R.id.visit_page, R.id.visit_youtube)
                 .setDrawerLayout(drawer)
                 .build();
         final NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -47,10 +47,12 @@ public class MainActivity extends AppCompatActivity
         MenuItem i = navigationView.getMenu().findItem(R.id.join_dsdr);
         MenuItem j = navigationView.getMenu().findItem(R.id.visit_page);
         MenuItem k = navigationView.getMenu().findItem(R.id.join_dsdr_special);
+        MenuItem l = navigationView.getMenu().findItem(R.id.visit_youtube);
 
         i.setOnMenuItemClickListener(this);
         j.setOnMenuItemClickListener(this);
         k.setOnMenuItemClickListener(this);
+        l.setOnMenuItemClickListener(this);
     }
 
     //If we need permission(s) in the app, use these.
@@ -110,15 +112,32 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onMenuItemClick(MenuItem item) {
         int id = item.getItemId();
-        switch (id) {
-            case R.id.visit_page:
-                startActivity(facebookPageIntent(getApplicationContext()));
-            case R.id.join_dsdr:
-                startActivity(facebookGroupIntent(getApplicationContext(), "397519470727469"));
-            case R.id.join_dsdr_special:
-                startActivity(facebookGroupIntent(getApplicationContext(), "675260586557796"));
+
+        if (id == R.id.visit_page) {
+            startActivity(facebookPageIntent(getApplicationContext()));
+        }
+        if (id == R.id.join_dsdr) {
+            startActivity(facebookGroupIntent(getApplicationContext(), "397519470727469"));
+        }
+        if (id == R.id.join_dsdr_special) {
+            startActivity(facebookGroupIntent(getApplicationContext(), "675260586557796"));
+        }
+        if (id == R.id.visit_youtube) {
+            startActivity(youtubeIntent("https://www.youtube.com/channel/UCND4mpI1O1TkmBXtUnENWDQ"));
         }
         return false;
+    }
+
+    private Intent youtubeIntent(String url) {
+        try {
+            getApplicationContext().getPackageManager().getPackageInfo("com.google.android.youtube", 0);
+            Intent intent = new Intent();
+            intent.setData(Uri.parse(url));
+            intent.setPackage("com.google.android.youtube");
+            return intent;
+        } catch (Exception e) {
+            return new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        }
     }
 
     private static Intent facebookGroupIntent(Context context, String id) {
