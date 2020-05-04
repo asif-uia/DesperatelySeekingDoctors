@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         if (id == R.id.exit) {
             finishAffinity();
+            //Test for Firebase Crashlytics
+            //throw new RuntimeException("Crashed Application by force!");
         }
         return super.onOptionsItemSelected(item);
     }
