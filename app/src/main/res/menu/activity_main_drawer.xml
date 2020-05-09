@@ -10,21 +10,13 @@
             android:title="@string/menu_home" />
     </group>
 
-    <item android:title="@string/coronavirus_corner">
+    <item android:title="@string/emergency_corner">
         <menu>
             <group android:checkableBehavior="single">
                 <item
-                    android:id="@+id/nav_corona"
-                    android:icon="@drawable/ic_virus"
-                    android:title="@string/corona_cell" />
-                <item
-                    android:id="@+id/corona_hotlines"
+                    android:id="@+id/hotline_emergency"
                     android:icon="@drawable/ic_hotline"
-                    android:title="@string/c_hot" />
-                <item
-                    android:id="@+id/corona_labs"
-                    android:icon="@drawable/ic_lab"
-                    android:title="@string/corona_test" />
+                    android:title="@string/hotline_emergency" />
             </group>
         </menu>
     </item>
