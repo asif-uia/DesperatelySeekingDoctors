@@ -19,14 +19,14 @@
             android:id="@+id/action_nav_home_to_dental"
             app:destination="@id/dental" />
         <action
-            android:id="@+id/action_nav_home_to_aboutUs"
-            app:destination="@id/aboutUs" />
-        <action
             android:id="@+id/action_nav_home_to_zillaChamber"
             app:destination="@id/zillaChamber" />
         <action
             android:id="@+id/action_nav_home_to_healthTipsMain"
             app:destination="@id/healthTipsMain" />
+        <action
+            android:id="@+id/action_nav_home_to_bloodBank"
+            app:destination="@id/bloodBank" />
     </fragment>
 
     <fragment
@@ -38,34 +38,33 @@
     <fragment
         android:id="@+id/doctors"
         android:name="com.elab.dsdr.ui.doctorsHelpline.doctorHelpline"
-        android:label="fragment_doctors"
         tools:layout="@layout/fragment_doctors" />
 
     <fragment
         android:id="@+id/ambulance4"
         android:name="com.elab.dsdr.ui.ambulance.Ambulance"
-        android:label="fragment_ambulance"
         tools:layout="@layout/fragment_ambulance" />
 
     <fragment
         android:id="@+id/dental"
         android:name="com.elab.dsdr.ui.dentalHelpline.Dental"
-        android:label="fragment_dental"
         tools:layout="@layout/fragment_dental" />
     <fragment
-        android:id="@+id/aboutUs"
+        android:id="@+id/about_we"
         android:name="com.elab.dsdr.aboutUs"
-        android:label="fragment_about_us"
         tools:layout="@layout/fragment_about_us" />
     <fragment
         android:id="@+id/zillaChamber"
         android:name="com.elab.dsdr.ui.zillaChambers.zillaChamber"
-        android:label="fragment_zilla_chamber"
         tools:layout="@layout/fragment_zilla_chamber" />
     <fragment
         android:id="@+id/healthTipsMain"
         android:name="com.elab.dsdr.ui.healthTips.healthTipsMain"
-        android:label="fragment_health_tips_main"
         tools:layout="@layout/fragment_health_tips_main" />
+    <fragment
+        android:id="@+id/bloodBank"
+        android:name="com.elab.dsdr.ui.bloodbank.bloodBank"
+        android:label="fragment_blood_bank"
+        tools:layout="@layout/fragment_blood_bank" />
 
 </navigation>

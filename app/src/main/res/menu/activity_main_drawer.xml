@@ -45,5 +45,16 @@
         </menu>
     </item>
 
+    <item android:title="@string/learn_n">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about_we"
+                    android:icon="@drawable/ic_about"
+                    android:title="@string/learn_about" />
+            </group>
+        </menu>
+    </item>
+
 
 </menu>

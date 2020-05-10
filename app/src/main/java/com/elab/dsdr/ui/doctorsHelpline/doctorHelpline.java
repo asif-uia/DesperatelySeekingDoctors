@@ -1,13 +1,11 @@
 package com.elab.dsdr.ui.doctorsHelpline;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -38,10 +36,10 @@ public class doctorHelpline extends Fragment {
 
         final ArrayList<itemResource> arrayList = new ArrayList<>();
 
-        String[] doc = {"Doctor 1 (Call / Whatsapp)", "Doctor 2 (Call / Whatsapp)", "Doctor 3 (Call / Whatsapp)",
-                "Doctor 4 (Call / Whatsapp)", "Doctor 5 (Call / Whatsapp)", "Doctor 6 (Call / Whatsapp)",
-                "Doctor 7 (Call / Whatsapp)", "Doctor 8 (Call / Whatsapp)", "Doctor 9 (Call / Whatsapp)",
-                "Doctor 10 (Call / Whatsapp)"};
+        String[] doc = {"Doctor 1 (Call)", "Doctor 2 (Call)", "Doctor 3 (Call)",
+                "Doctor 4 (Call)", "Doctor 5 (Call)", "Doctor 6 (Call)",
+                "Doctor 7 (Call)", "Doctor 8 (Call)", "Doctor 9 (Call)",
+                "Doctor 10 (Call)"};
         String[] no = {"01767012127", "01537236046", "01832481701",
                 "01908528959", "01832481802", "01708335928",
                 "01635746803", "01533019995", "01722723396",
@@ -66,36 +64,7 @@ public class doctorHelpline extends Fragment {
                 Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + s));
                 startActivity(intent);
             }
-
-            @Override
-            public void onWhatsapp(int p) {
-                sendtoWhatsapp(arrayList.get(p).getText2());
-            }
         });
-
-
-    }
-
-    private void sendtoWhatsapp(String num) {
-        PackageManager pm = requireContext().getPackageManager();
-        boolean i;
-        try {
-            pm.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
-            i = true;
-        } catch (PackageManager.NameNotFoundException e) {
-            i = false;
-            e.printStackTrace();
-        }
-
-        if (i) {
-            Uri uri = Uri.parse("smsto:" + num);
-            Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
-            //intent.setType("text/plain");
-            intent.setPackage("com.whatsapp");
-            startActivity(Intent.createChooser(intent, ""));
-        } else {
-            Toast.makeText(getContext(), "Whatsapp Not Installed!", Toast.LENGTH_LONG).show();
-        }
     }
 
     @Override

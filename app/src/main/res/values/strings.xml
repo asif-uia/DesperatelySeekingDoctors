@@ -71,7 +71,7 @@
         <item>01745-966600</item>
     </string-array>
 
-
+    <!--ambulance-section-->
     <string-array name="chittagong">
         <item>মিডিয়া এ্যাম্বুলেন্স</item>
         <item>আলফা এ্যাম্বুলেন্স</item>
@@ -200,7 +200,6 @@
         <item>01712678529</item>
         <item>01774718199</item>
     </string-array>
-
 
     <string-array name="Dhaka">
         <item>ঢাকা মেডিকেল কলেজ হসপিটালস, ১০০ রমনা, ঢাকা</item>
@@ -484,6 +483,7 @@
         <item>লাব্বাইক এ্যাম্বুলেন্স সার্ভিস</item>
         <item>নেত্রকোনা বি এন এস বি চক্ষু হাসপাতাল এ্যাম্বুলেন্স</item>
     </string-array>
+    <!--ambulance-section-->
 
     <string-array name="icu_hotlines">
         <item>ঢাকা মেডিকেল কলেজ হাসপাতাল, ১০০ রমনা, ঢাকা</item>
@@ -856,27 +856,31 @@
         <item>0531-52080</item>
     </string-array>
 
+    <!--about_section-->
     <string name="districtwise">Districtwise Chambers</string>
     <string name="join_dsdr_special">Join DSDr. Specialised Care</string>
-    <string name="version_0_33">version 1.0</string>
+    <string name="version_0_33">version 1.03</string>
     <string name="developer">আমাদের সম্পর্কে</string>
 
     <string name="meshe">
         ডাঃ সাইমা ইসলাম\nমডারেটর, Desperately Seeking Doctors - DSDr.\nএবং টিম ডিএসডিআর.
     </string>
-
+    <string name="about">আমাদের সম্পর্কে</string>
+    <string name="asif1">পরিচালনা ও আইটি সাপোর্ট</string>
+    <string name="mes1">সার্বিক তত্ত্বাবধায়নে ও সহযোগীতায়</string>
+    <string name="saklayen1">উপদেষ্টা</string>
     <string name="saklayen">
         ডাঃ এস এম জি সাকলায়েন রাসেল\nভাস্কুলার সার্জন ও ব্রডকাস্ট জার্নালিস্ট\nপ্রতিষ্ঠাতা ও এ্যাডমিন,\nDesperately Seeking Doctors - DSDr.
     </string>
-
     <string name="asif">
-        আসিফ-উল ইসলাম\nসফটওয়্যার ইঞ্জিনিয়ার ও টিম লিড @ E-Lab\nমেইলঃ asif07c@gmail.com
+        আসিফ-উল ইসলাম\nসফটওয়্যার ইঞ্জিনিয়ার ও টিম লিড @ E-exponential\nমেইলঃ asif07c@gmail.com
     </string>
-
     <string name="about_app">
         অ্যাপটি Desperately Seeking Doctors - DSDr গ্রুপ দ্বারা পরিচালিত অফিসিয়াল অ্যাপ। এটি রেজিস্টার্ড ডাক্তার ও মেডিক্যাল স্টুডেন্ট দ্বারা পরিচালিত।\nDSDr সাধারন মানুষকে স্বাস্থ্যবিষয়ক পরামর্শ দিয়ে সাহায্য করার জন্যই। উপযুক্ত তথ্য সুচিকিৎসার প্রথম শর্ত, যেটি আমরা করছি স্বেচ্ছাশ্রমে। দায়িত্ববদ্ধ পরিচালকগণ চিকিৎসাসেবায় ডাক্তার ও রোগীদের আস্থা বাড়াতে কাজ করছেন, যেখানে কোন লাভবান হওয়ার সুযোগ নেই, উপরওয়ালা আমাদের এ শ্রমকে কবুল করে নিক।
     </string>
+    <!--about_section-->
 
+    <!--zillawise-->
     <string name="zil0">
         ডাঃ আবদুল্লাহ আল হাসীব\nএম বি বি এস(এ এফ এম সি), বিসিএস(স্বাস্থ্য)\nএমডি (Phase-A, R. Oncology)\nঠিকানাঃ প্রাইম ডায়াগনস্টিক সেন্টার, সদর, ঠাকুরগাঁও (আধুনিক সদর হাসপাতালের সামনে)
     </string>
@@ -888,8 +892,8 @@
     <string name="zil2">
         ডাঃ এ কে এম ছামিউল হক\nএম বি বি এস\nরেসিডেন্ট মেডিকেল অফিসার ও ইনচার্জ\nনেত্রকোনা বি এন এস বি চক্ষু হাসপাতাল\nপ্রাইভেট চেম্বারঃ নেত্রকোনা আইডিয়াল হাসপাতাল প্রাইভেট লিমিটেড
     </string>
+    <!--zillawise-->
 
-    <string name="about">আমাদের সম্পর্কে</string>
 
     <!--health-tips-start-->
     <string-array name="tips">
@@ -911,6 +915,119 @@
         <item>স্ক্যাবিস/ খোসপাঁচড়া হলে যা করবেন</item>
         <item>জ্বর হলে যা করবেন এবং করবেন না</item>
     </string-array>
+
+    <!--dhaka_bb_list-->
+    <string-array name="dhaka_bb_list">
+        <item>আলিফ ব্লাড ব্যাংক ও ট্রান্সফিউশন সেন্টার, পান্থপথ</item>
+        <item>বাংলাদেশ রেড ক্রিসেন্ট ব্লাড ব্যাংক, মোহাম্মদপুর</item>
+        <item>বাংলাদেশ স্পেশালাইজড হসপিটাল ব্লাড ব্যাংক, শ্যামলী</item>
+        <item>হলি ফ্যামিলি রেড ক্রিসেন্ট মেডিক্যাল কলেজ, ইস্কাটন</item>
+        <item>ইসলামী ব্যাংক সেন্ট্রাল হসপিটাল, কাকরাইল</item>
+        <item>ইসলামী ব্যাংক হসপিটাল, মিরপুর-১২</item>
+        <item>মুক্তি ব্লাড ব্যাংক, গ্রীন রোড</item>
+        <item>ওরিয়েন্টাল ব্লাড ব্যাংক, গ্রীন রোড</item>
+        <item>কোয়ান্টাম ব্লাড ব্যাংক ল্যাব, শান্তিনগর</item>
+        <item>রিদম ব্লাড ব্যাংক, হাতিরপুল</item>
+        <item>থ্যালাসেমিয়া ব্লাড ব্যাংক, চামেলীবাগ</item>
+        <item>পুলিশ ব্লাড ব্যাংক, রাজারবাগ</item>
+        <item>মালিহা ব্লাড ব্যাংক, মোহাম্মদপুর</item>
+    </string-array>
+
+    <string-array name="dbb1">
+        <item>01712392923</item>
+    </string-array>
+    <string-array name="dbb2">
+        <item>029116563</item>
+        <item>028121497</item>
+        <item>029139940</item>
+    </string-array>
+    <string-array name="dbb3">
+        <item>10633</item>
+        <item>09666700100</item>
+    </string-array>
+    <string-array name="dbb4">
+        <item>0248311721</item>
+    </string-array>
+    <string-array name="dbb5">
+        <item>029355802</item>
+        <item>029360331</item>
+        <item>029360332</item>
+        <item>029355801</item>
+    </string-array>
+    <string-array name="dbb6">
+        <item>01992346631</item>
+    </string-array>
+    <string-array name="dbb7">
+        <item>028624249</item>
+    </string-array>
+    <string-array name="dbb8">
+        <item>01812700053</item>
+    </string-array>
+    <string-array name="dbb9">
+        <item>01714010869</item>
+    </string-array>
+    <string-array name="dbb10">
+        <item>01854808765</item>
+    </string-array>
+    <string-array name="dbb11">
+        <item>0283332481</item>
+    </string-array>
+    <string-array name="dbb12">
+        <item>029362573</item>
+        <item>01713398386</item>
+    </string-array>
+    <string-array name="dbb13">
+        <item>01736989326</item>
+    </string-array>
+    <!--dhaka_bb_list-->
+
+    <!--others_bb_list-->
+    <string-array name="others_bb_list">
+        <item>সিটিজি ব্লাড ব্যাংক, চট্টগ্রাম সদর</item>
+        <item>ফাতেমা বেগম রেড ক্রিসেন্ট ব্লাড সেন্টার, আন্দরকিল্লা, চট্টগ্রাম</item>
+        <item>কর্ণফুলি ব্লাড ব্যাংক ও থ্যালাসেমিয়া সেন্টার, কে বি ফজলুল কাদের রোড, চট্টগ্রাম</item>
+        <item>সন্ধানী চট্টগ্রাম, চট্টগ্রাম মেডিক্যাল কলেজ</item>
+        <item>সন্ধানী কুমিল্লা, কুমিল্লা মেডিক্যাল কলেজ</item>
+        <item>মুজিব জাহান রেড ক্রিসেন্ট ব্লাড সেন্টার, চৌহাট্টা, সিলেট</item>
+        <item>সন্ধানী বগুড়া, শহীদ জিয়াউর রহমান মেডিক্যাল কলেজ বগুড়া</item>
+        <item>রাজশাহী রেড ক্রিসেন্ট ব্লাড সেন্টার, রাজশাহী সদর</item>
+        <item>নাটোর রেড ক্রিসেন্ট ব্লাড সেন্টার, নাটোর সদর</item>
+        <item>বাগেরহাট ব্লাড ব্যাংক, বাগেরহাট সদর, বাগেরহাট</item>
+    </string-array>
+
+    <string-array name="obb1">
+        <item>01825039650</item>
+    </string-array>
+    <string-array name="obb2">
+        <item>031620926</item>
+    </string-array>
+    <string-array name="obb3">
+        <item>019812378076</item>
+    </string-array>
+    <string-array name="obb4">
+        <item>031616625</item>
+    </string-array>
+    <string-array name="obb5">
+        <item>01674317222</item>
+    </string-array>
+    <string-array name="obb6">
+        <item>01611300901</item>
+    </string-array>
+    <string-array name="obb7">
+        <item>01980806767</item>
+    </string-array>
+    <string-array name="obb8">
+        <item>01740384078</item>
+    </string-array>
+    <string-array name="obb9">
+        <item>01850124225</item>
+    </string-array>
+    <string-array name="obb10">
+        <item>01799404296</item>
+    </string-array>
+    <!--others_bb_list-->
+
+    <!--health-tips-start-->
     <string-array name="diab1">
         <item>১. প্রতিদিন বাইরে থেকে এসে পা চেক করুন। প্রয়োজনে আয়না ব্যবহার করুন। পায়ের কোথাও কেটে গিয়েছে কিনা ভালো ভাবে দেখুন।\n২.পা সাবান পানি দিয়ে পরিস্কার করুন।\n৩. পায়ের আংগুলে, আংগুলের ফাকে ঘা আছে কিনা চেক করুন।\n৪.নখ গোল করে বেশি ছোট করে কাটবেন না, নখ চারকোনা রাখবেন, কোনা বাড়তি রেখে কাটবেন। পরিস্কার রাখবেন।\n৫. শক্ত সোল / সিলিকন সোলের জুতা পরিধান করুন। শু-এর ক্ষেত্রে সামনের দিক প্রশস্ত এমন কিনুন। এপেক্স এ পায়ের মাপ নিয়ে বিশেষ জুতা বানানো হয়।\n৬. নিয়ম মেনে চলুন, ডায়াবেটিস নিয়ন্ত্রণে রাখুন,ব্যয়াম করুন।\n৭. যে কোন পায়ের ঘা ডাক্তার কে দেখান। ভিটামিন সি, জিংক সমৃদ্ধ খাবার খান।\n৮. পায়ে ব্যথা বোধ হলে ভাস্কুলার সার্জন এর পরামর্শ নিন।\n</item>
     </string-array>
@@ -979,8 +1096,7 @@
     </string-array>
 
     <string-array name="sleep_hyg">
-        <item>★ সন্ধ্যা থেকে চা,কফি এসব খাওয়া এড়িয়ে চলতে হবে।\n★ রাতের খাবার আগেই খেয়ে নিতে হবে।\n★ বেশি রাত করে টিভি,মুভি,ল্যাপটপ, ফোন এসব ব্যবহার পরিত্যাগ করতে হবে।\n★ উত্তেজিত হওয়া / উত্তেজনা হয় এমন কাজ, দুশ্চিন্তা থেকে দূরে থাকতে হবে।\n★ ঘুমের আগে হাল্কা হাটাহাটি করা যেতে পারে।\n★ সন্ধ্যায় হাটাহাটি করা যেতে পারে,এতে করে ক্লান্তি ভাব আসবে।\n★ ঘুমাতে যাবার আগে গরম দুধ খাওয়া উপকারী।\n★ ব্যক্তিগত পরিস্কার পরিছন্নতা মেনে লাইট বন্ধ করে শুয়ে পড়তে হবে। ১০০ থেকে ১ উল্টা থেকে গুনে আসতে আসতে ঘুম এসে যাবে।\n★ যে যে ধর্মের প্রার্থনা, হাল্কা ব্যয়াম, মেডিটেশন করা যেতে পারে।\n★ ঘুমানোর আগে সকল চিন্তা বাদ দিয়ে প্রথমে মাথায় আনতে হবে ঘুমানোর কথা।\n★ স্লিপিং পিল ব্যবহার পরিত্যাগ করতে হবে। বয়সের সাথে সাথে অনেকের ঘুম কমে যায়। সেক্ষেত্রে স্লিপ হাইজিন মেনে চল্লে অনিদ্রা জনিত সমস্যা এড়ানো সম্ভব।</item>
-        \n
+        <item>★ সন্ধ্যা থেকে চা,কফি এসব খাওয়া এড়িয়ে চলতে হবে।\n★ রাতের খাবার আগেই খেয়ে নিতে হবে।\n★ বেশি রাত করে টিভি,মুভি,ল্যাপটপ, ফোন এসব ব্যবহার পরিত্যাগ করতে হবে।\n★ উত্তেজিত হওয়া / উত্তেজনা হয় এমন কাজ, দুশ্চিন্তা থেকে দূরে থাকতে হবে।\n★ ঘুমের আগে হাল্কা হাটাহাটি করা যেতে পারে।\n★ সন্ধ্যায় হাটাহাটি করা যেতে পারে,এতে করে ক্লান্তি ভাব আসবে।\n★ ঘুমাতে যাবার আগে গরম দুধ খাওয়া উপকারী।\n★ ব্যক্তিগত পরিস্কার পরিছন্নতা মেনে লাইট বন্ধ করে শুয়ে পড়তে হবে। ১০০ থেকে ১ উল্টা থেকে গুনে আসতে আসতে ঘুম এসে যাবে।\n★ যে যে ধর্মের প্রার্থনা, হাল্কা ব্যয়াম, মেডিটেশন করা যেতে পারে।\n★ ঘুমানোর আগে সকল চিন্তা বাদ দিয়ে প্রথমে মাথায় আনতে হবে ঘুমানোর কথা।\n★ স্লিপিং পিল ব্যবহার পরিত্যাগ করতে হবে। বয়সের সাথে সাথে অনেকের ঘুম কমে যায়। সেক্ষেত্রে স্লিপ হাইজিন মেনে চল্লে অনিদ্রা জনিত সমস্যা এড়ানো সম্ভব।\n★ দিনের বেলা ঘুমানো যাবে না।\n</item>
     </string-array>
 
     <string-array name="cough_cold">
@@ -998,10 +1114,11 @@
     <!--health-tips-end-->
 
 
-    <string name="asif1">পরিচালনা ও আইটি সাপোর্ট</string>
-    <string name="mes1">সার্বিক তত্ত্বাবধায়নে ও সহযোগীতায়</string>
-    <string name="saklayen1">উপদেষ্টা</string>
-    <string name="learn_about_us">Learn About Us</string>
+    <string name="blood_b">Find a Blood Bank</string>
+    <string name="learn_n"><![CDATA[Learn & Care]]></string>
+    <string name="share_amp_care"><![CDATA[Share & Care]]></string>
+    <string name="learn_about">Learn about us!</string>
+    <string name="blood_bank">ব্লাড ব্যাংক</string>
 
     <!--tips - dental-tab-->
     <string-array name="dentaltips">

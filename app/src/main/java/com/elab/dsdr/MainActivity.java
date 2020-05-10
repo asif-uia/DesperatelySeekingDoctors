@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity
         //noinspection deprecation
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.hotline_emergency, R.id.join_dsdr,
-                R.id.visit_page, R.id.visit_youtube)
+                R.id.visit_page, R.id.visit_youtube, R.id.about_we)
                 .setDrawerLayout(drawer)
                 .build();
         final NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -65,8 +65,14 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
         if (id == R.id.exit) {
             finishAffinity();
-            //Test for Firebase Crashlytics
-            //throw new RuntimeException("Crashed Application by force!");
+        }
+        if (id == R.id.share) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT,
+                    "Check out DSDR app at: https://play.google.com/store/apps/details?id=" + BuildConfig.APPLICATION_ID);
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -50,12 +50,9 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
 
     public interface MyClickListener {
         void onPhoneCall(int p);
-
-        void onWhatsapp(int p);
     }
 
     static class itemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        ImageView imageView2;
         ImageView imageView3;
         TextView textView1;
         TextView textView2;
@@ -65,26 +62,17 @@ public class itemAdapter extends RecyclerView.Adapter<itemAdapter.itemViewHolder
 
         itemViewHolder(@NonNull View itemView, MyClickListener listener) {
             super(itemView);
-            imageView2 = itemView.findViewById(R.id.imageView2);
-            imageView3 = itemView.findViewById(R.id.imageView_wp);
+            imageView3 = itemView.findViewById(R.id.imageView_call_doctor);
             textView1 = itemView.findViewById(R.id.d_name);
             textView2 = itemView.findViewById(R.id.d_no);
 
-            //i = itemView.findViewById(R.id.imageView2);
-            imageView2.setOnClickListener(this);
             imageView3.setOnClickListener(this);
-
             this.listener = listener;
-
-
         }
 
         @Override
         public void onClick(View v) {
-            if (v.getId() == R.id.imageView2) {
-                listener.onWhatsapp(this.getLayoutPosition());
-            }
-            if (v.getId() == R.id.imageView_wp) {
+            if (v.getId() == R.id.imageView_call_doctor) {
                 listener.onPhoneCall(this.getLayoutPosition());
             }
         }

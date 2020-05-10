@@ -22,14 +22,4 @@ public class aboutUs extends Fragment {
 
         return inflater.inflate(R.layout.fragment_about_us, container, false);
     }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        Objects.requireNonNull(((AppCompatActivity) requireActivity())
-                .getSupportActionBar())
-                .setTitle(getString(R.string.menu_home));
-    }
-
-
 }

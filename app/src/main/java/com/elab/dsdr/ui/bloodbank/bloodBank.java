@@ -1,4 +1,4 @@
-package com.elab.dsdr.ui.emergencyHotline;
+package com.elab.dsdr.ui.bloodbank;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -16,34 +16,31 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.Objects;
 
-public class HotlineMain extends Fragment {
+public class bloodBank extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
-        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.emergence_hot));
-        return inflater.inflate(R.layout.fragment_hot_main, container, false);
+        Objects.requireNonNull(((AppCompatActivity) requireActivity()).getSupportActionBar()).setTitle(getString(R.string.blood_bank));
+        return inflater.inflate(R.layout.fragment_blood_bank, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ViewPager viewPager = view.findViewById(R.id.pager3);
-        setupViewPager(viewPager);
+        ViewPager viewPager = view.findViewById(R.id.pager_blood);
+        TabLayout tabLayout = view.findViewById(R.id.tablayout_blood);
 
-        TabLayout tabLayout = view.findViewById(R.id.tablayout3);
+        setupViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
     }
 
     private void setupViewPager(ViewPager viewPager) {
         PagerAdapter pagerAdapter = new PagerAdapter(getChildFragmentManager());
-        pagerAdapter.addFragment(new emergency_defaultHotline(), getString(R.string.emergence_hot));
-        pagerAdapter.addFragment(new testLab(), getString(R.string.test_lab));
-        pagerAdapter.addFragment(new special_hspt(), getString(R.string.special_hospital));
-        pagerAdapter.addFragment(new icu(), getString(R.string.icu_hot));
+        pagerAdapter.addFragment(new dhaka_BB(), "ঢাকা বিভাগ");
+        pagerAdapter.addFragment(new others_BB(), "অন্যান্য বিভাগসমূহ");
 
         viewPager.setAdapter(pagerAdapter);
     }

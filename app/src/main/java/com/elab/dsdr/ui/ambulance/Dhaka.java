@@ -88,7 +88,6 @@ public class Dhaka extends Fragment {
         listDataChild.put(listDataHeader.get(24), Arrays.asList(getResources().getStringArray(R.array.dhk25)));
         listDataChild.put(listDataHeader.get(25), Arrays.asList(getResources().getStringArray(R.array.dhk26)));
         listDataChild.put(listDataHeader.get(26), Arrays.asList(getResources().getStringArray(R.array.dhk27)));
-
     }
 
     private void childActionIntent(String tel) {

@@ -6,5 +6,11 @@
         android:icon="@drawable/ic_exit"
         android:orderInCategory="200"
         android:title="@string/exit"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_logos"
+        android:orderInCategory="100"
+        android:title="Share"
         app:showAsAction="always" />
 </menu>

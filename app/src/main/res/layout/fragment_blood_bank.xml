@@ -4,18 +4,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.dentalHelpline.Dental">
-
-    <!-- <androidx.recyclerview.widget.RecyclerView
-         android:id="@+id/recyclerView4"
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"
-         android:background="#E4E3E3"
-         android:padding="4dp"
-         android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>-->
+    tools:context=".ui.bloodbank.bloodBank">
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tablayout_den"
+        android:id="@+id/tablayout_blood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
@@ -23,8 +15,7 @@
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/pager_den"
+        android:id="@+id/pager_blood"
         android:layout_width="match_parent"
         android:layout_height="fill_parent" />
-
 </LinearLayout>
