@@ -12,9 +12,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@android:color/holo_red_dark"
         android:textSize="17sp"
-        android:textStyle="bold"
         tools:ignore="RtlSymmetry" />
 
 </LinearLayout>

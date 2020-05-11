@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes, Typos">
-    <string name="app_name">Desperately Seeking Doctors - DSDr</string>
+    <string name="app_name">Desperately Seeking Doctors - DsDr</string>
     <string name="nav_header_desc">Navigation header</string>
 
     <string name="menu_home">Home</string>
@@ -32,7 +32,7 @@
     <string name="emergence_hot">ইমার্জেন্সি হটলাইন</string>
     <string name="special_hospital">বিশেষায়িত হাসপাতালসমূহ</string>
     <string name="icu_hot">ICU হটলাইন</string>
-    <string name="dsdr_comm">Join DSDr. Group</string>
+    <string name="dsdr_comm">Join DsDr. Group</string>
     <string name="community">Community</string>
     <string name="emergency_corner">Emergency Corner</string>
     <string name="know_MORE">Trending Health Issues</string>
@@ -858,25 +858,25 @@
 
     <!--about_section-->
     <string name="districtwise">Districtwise Chambers</string>
-    <string name="join_dsdr_special">Join DSDr. Specialised Care</string>
-    <string name="version_0_33">version 1.03</string>
+    <string name="join_dsdr_special">Join DsDr. Specialised Care</string>
+    <string name="version_0_33">version 1.04</string>
     <string name="developer">আমাদের সম্পর্কে</string>
 
     <string name="meshe">
-        ডাঃ সাইমা ইসলাম\nমডারেটর, Desperately Seeking Doctors - DSDr.\nএবং টিম ডিএসডিআর.
+        ডাঃ সাইমা ইসলাম\nঅ্যাডভাইজার, Desperately Seeking Doctors - DsDr.\nএবং টিম ডিএসডিআর.
     </string>
     <string name="about">আমাদের সম্পর্কে</string>
     <string name="asif1">পরিচালনা ও আইটি সাপোর্ট</string>
     <string name="mes1">সার্বিক তত্ত্বাবধায়নে ও সহযোগীতায়</string>
     <string name="saklayen1">উপদেষ্টা</string>
     <string name="saklayen">
-        ডাঃ এস এম জি সাকলায়েন রাসেল\nভাস্কুলার সার্জন ও ব্রডকাস্ট জার্নালিস্ট\nপ্রতিষ্ঠাতা ও এ্যাডমিন,\nDesperately Seeking Doctors - DSDr.
+        ডাঃ এস এম জি সাকলায়েন রাসেল\nভাস্কুলার সার্জন ও ব্রডকাস্ট জার্নালিস্ট\nপ্রতিষ্ঠাতা ও এ্যাডমিন,\nDesperately Seeking Doctors - DsDr.
     </string>
     <string name="asif">
         আসিফ-উল ইসলাম\nসফটওয়্যার ইঞ্জিনিয়ার ও টিম লিড @ E-exponential\nমেইলঃ asif07c@gmail.com
     </string>
     <string name="about_app">
-        অ্যাপটি Desperately Seeking Doctors - DSDr গ্রুপ দ্বারা পরিচালিত অফিসিয়াল অ্যাপ। এটি রেজিস্টার্ড ডাক্তার ও মেডিক্যাল স্টুডেন্ট দ্বারা পরিচালিত।\nDSDr সাধারন মানুষকে স্বাস্থ্যবিষয়ক পরামর্শ দিয়ে সাহায্য করার জন্যই। উপযুক্ত তথ্য সুচিকিৎসার প্রথম শর্ত, যেটি আমরা করছি স্বেচ্ছাশ্রমে। দায়িত্ববদ্ধ পরিচালকগণ চিকিৎসাসেবায় ডাক্তার ও রোগীদের আস্থা বাড়াতে কাজ করছেন, যেখানে কোন লাভবান হওয়ার সুযোগ নেই, উপরওয়ালা আমাদের এ শ্রমকে কবুল করে নিক।
+        অ্যাপটি Desperately Seeking Doctors - DsDr গ্রুপ দ্বারা পরিচালিত অফিসিয়াল অ্যাপ। এটি রেজিস্টার্ড ডাক্তার ও মেডিক্যাল স্টুডেন্ট দ্বারা পরিচালিত।\nDsDr সাধারন মানুষকে স্বাস্থ্যবিষয়ক পরামর্শ দিয়ে সাহায্য করার জন্যই। উপযুক্ত তথ্য সুচিকিৎসার প্রথম শর্ত, যেটি আমরা করছি স্বেচ্ছাশ্রমে। দায়িত্ববদ্ধ পরিচালকগণ চিকিৎসাসেবায় ডাক্তার ও রোগীদের আস্থা বাড়াতে কাজ করছেন, যেখানে কোন লাভবান হওয়ার সুযোগ নেই, উপরওয়ালা আমাদের এ শ্রমকে কবুল করে নিক।
     </string>
     <!--about_section-->
 
