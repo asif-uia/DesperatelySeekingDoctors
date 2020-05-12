@@ -73,7 +73,6 @@ public class healthTipsMain extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-
         Objects.requireNonNull(((AppCompatActivity) requireActivity())
                 .getSupportActionBar())
                 .setTitle(getString(R.string.menu_home));

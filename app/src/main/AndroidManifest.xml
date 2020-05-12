@@ -4,6 +4,7 @@
     package="com.elab.dsdr">
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:icon="@mipmap/ic_final_icon"
         android:label="@string/app_name"
@@ -12,9 +13,9 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name="com.elab.dsdr.MainActivity"
-            android:label="@string/app_name"
+            android:name=".MainActivity"
             android:screenOrientation="locked"
+            android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,4 +24,5 @@
             </intent-filter>
         </activity>
     </application>
+
 </manifest>

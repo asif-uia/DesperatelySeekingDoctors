@@ -46,5 +46,9 @@ public class tips extends Fragment {
 
         listDataChild.put(listDataHeader.get(0), Arrays.asList(getResources().getStringArray(R.array.gin)));
         listDataChild.put(listDataHeader.get(1), Arrays.asList(getResources().getStringArray(R.array.hal)));
+        listDataChild.put(listDataHeader.get(2), Arrays.asList(getResources().getStringArray(R.array.oral_can)));
+        listDataChild.put(listDataHeader.get(3), Arrays.asList(getResources().getStringArray(R.array.scaling_dental)));
+        listDataChild.put(listDataHeader.get(4), Arrays.asList(getResources().getStringArray(R.array.child_dental)));
+        listDataChild.put(listDataHeader.get(5), Arrays.asList(getResources().getStringArray(R.array.oral_ulcer)));
     }
 }
